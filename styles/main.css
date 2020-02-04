@@ -16,10 +16,9 @@ body{
   margin: 0 auto;
 }
 .header{
-  background:rgba(2, 89, 184, 0.5);
   height: 57px;
   color:#FFF;
-  border-bottom: 3px #0257B8 solid;
+  border-bottom: 3px #FFF solid;
   width: 100%;
   position: fixed;
   font-weight: bold;
@@ -40,11 +39,11 @@ body{
   color:#FFF;
   text-decoration: none;
   margin: 0;
+  margin-left: 2px;
   padding: 6px;
   font-size: 88%;
   font-weight: 300;
   border: 0.5px #FFF solid;
-  border-radius: 16px ;
 }
 .header_menu{
   display: flex;
@@ -59,6 +58,7 @@ body{
 .header_droite{
   display: flex;
   margin: 0;
+  padding: 2px;
 }
 .header_menu_lien{
   text-decoration: none;

@@ -1,17 +1,16 @@
 const sr = ScrollReveal();
 sr.reveal('.reveal_right',{
   origin:'right',
-  duration:5000,
-  distance:'1000px',
+  duration:3000,
+  distance:'900px',
   opacity:0,
   reset:true,
 });
 
-const sr = ScrollReveal();
-sr.reveal('.reveal_right',{
+sr.reveal('.reveal_left',{
   origin:'left',
-  duration:5000,
-  distance:'1000px',
+  duration:2000,
+  distance:'600px',
   opacity:0,
   reset:true,
 });
