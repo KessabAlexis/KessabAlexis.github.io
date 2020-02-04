@@ -2,7 +2,7 @@ const sr = ScrollReveal();
 
 sr.reveal('.reveal_right_oralb',{
   origin:'right',
-  duration:3500,
+  duration:3400,
   distance:'700px',
   opacity:0,
   reset:true,
@@ -31,6 +31,7 @@ sr.reveal('.scroll_sl1',{
 sr.reveal('.scroll_normaltext',{
   reset:true,
   opacity:0,
-  duration:6000,
-  distance:1000,
+  duration:4000,
+  distance:'1200px',
+  origin:'left',
 });
