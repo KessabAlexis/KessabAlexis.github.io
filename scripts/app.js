@@ -28,10 +28,34 @@ sr.reveal('.scroll_sl1',{
   duration:1000,
 });
 
-sr.reveal('.scroll_normaltext',{
+sr.reveal('.scroll_normaltext_left',{
   reset:true,
   opacity:0,
   duration:4000,
   distance:'1200px',
   origin:'left',
+});
+
+sr.reveal('.scroll_normaltext_right',{
+  reset:true,
+  opacity:0,
+  duration:4000,
+  distance:'1200px',
+  origin:'right',
+});
+
+sr.reveal('.scroll_chargeur',{
+  reset:true,
+  opacity:0,
+  duration:1500,
+  distance:'1200px',
+  origin:'left',
+});
+
+sr.reveal('.scroll_brosse_charg',{
+  reset:true,
+  opacity:0,
+  duration:1500,
+  distance:'1200px',
+  origin:'right',
 });
