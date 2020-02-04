@@ -1,8 +1,9 @@
 const sr = ScrollReveal();
+
 sr.reveal('.reveal_right_oralb',{
   origin:'right',
-  duration:3000,
-  distance:'900px',
+  duration:3500,
+  distance:'700px',
   opacity:0,
   reset:true,
 });
@@ -16,7 +17,7 @@ sr.reveal('.reveal_left_brosse1',{
 });
 
 sr.reveal('.scroll_sl0',{
-  duration:3000,
+  duration:4000,
   reset:true,
   opacity:0,
 });
@@ -25,4 +26,11 @@ sr.reveal('.scroll_sl1',{
   reset:true,
   opacity:0,
   duration:1000,
+});
+
+sr.reveal('.scroll_normaltext',{
+  reset:true,
+  opacity:0,
+  duration:6000,
+  distance:1000,
 });
