@@ -1,0 +1,16 @@
+@media screen and (max-width:1000px){
+  .container{
+    width: 660px;
+  }
+}
+@media screen and (max-width:660px){
+  .container{
+    width: 100%;
+  }
+  .header_nav{
+    display: none;
+  }
+  .header_nav2{
+    display: block;
+  }
+}
