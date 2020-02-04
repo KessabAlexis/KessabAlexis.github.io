@@ -31,7 +31,6 @@ body{
   align-items: center;
 }
 .header_logo{
-  height: 44px;
   width: 124px;
   margin: 0;
 }
@@ -114,31 +113,6 @@ MENU HAMBURGER DEROULANT
             /HEADER
 ****************************************/
 /****************************************
-            RESPONSIVE
-****************************************/
-@media screen and (max-width:1000px){
-  .container{
-    width: 660px;
-  }
-}
-@media screen and (max-width:660px){
-  .container{
-    width: 100%;
-  }
-  .header_nav{
-    display: none;
-  }
-  .header_nav2{
-    display: block;
-  }
-  .toothbrush1{
-    margin-left: 100px;
-  }
-}
-/****************************************
-          /RESPONSIVE
-****************************************/
-/****************************************
             MAIN
 ****************************************/
 .main{
@@ -154,7 +128,7 @@ MENU HAMBURGER DEROULANT
   width: 16%;
   height: auto;
   margin-top: 100px;
-  margin-left: 350px;
+  margin-left: 18%;
 }
 .main .slogan{
   position: absolute;
