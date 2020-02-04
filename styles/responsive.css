@@ -6,7 +6,7 @@
     font-size: 60%;
   }
   .toothbrush1,.toothbrushpart2_image,.toothbrushpart3_image,.toothbrushpart4_image_1,.toothbrushpart4_image_2{
-    min-width: 100px;
+    min-width: 112px;
   }
 }
 @media screen and (max-width:660px){
@@ -24,6 +24,9 @@
     padding: 4%;
   }
   .toothbrush1,.toothbrushpart2_image,.toothbrushpart3_image,.toothbrushpart4_image_1,.toothbrushpart4_image_2{
-    min-width: 100px;
+    min-width: 112px;
+  }
+  .testgraphique{
+    display: block;
   }
 }
