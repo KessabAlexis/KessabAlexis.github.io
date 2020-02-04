@@ -193,39 +193,73 @@ MENU HAMBURGER DEROULANT
 /****************************************
           FOOTER
 ****************************************/
-.footer{
-  width: 100%;
-  background:rgb(2, 89, 184);
-  color: #FFF;
-}
-.footer_contenu{
-overflow: hidden;
-padding: 40px 40px;
+footer{
+  background-color: #0259B8;
+padding-bottom: 25px;
+padding-top: 25px;
 display: flex;
+padding-right: 280px;
+text-align: center;
 }
-.footer_contenu_column h5{
-  font-family: 'arial';
-  font-size: 18px;
-  margin-bottom: 20px;
+
+
+
+.th, td{
+color: white;
+font-size: 12px;
+padding-left: 35px;
+padding-top: 5px;
+text-align: center;
+
+
 }
-.footer_contenu_column a{
-  font-family: 'arial';
-  font-size: 12px;
-  color: #FFF;
-  font-weight: 200;
-  text-decoration: none;
+
+.td, th{
+  color: white;
+  padding-left: 35px;
 }
-.logo img{
-height: 25px;
-width: auto;
+
+.th, td img{
+  height: 15px;
+  display: flex;
+  margin-right: 10px;
+
 }
-.barre{
+
+table img {
+  margin-left: 0;
+  padding-left: 15px;
+}
+
+.alignImg{
+  margin-left: -90px;
+}
+
+td:hover{
+color: black;
+}
+
+
+
+/*********************************
+
+            NAV
+
+*********************************/
+
+
+nav .barre{
   background: black;
-  height: 40px;
-  text-align: center;
-  padding-top: 8px;
-  margin-bottom: 0;
+  width: auto;
+  height: 30px;
 }
+
+ .barre h4{
+   color: white;
+   text-align: center;
+   padding-top: 10px;
+   font-size: 12px;
+ }
 /****************************************
             /FOOTER
 ****************************************/
