@@ -2,6 +2,9 @@
   .container{
     width: 660px;
   }
+  .menucotédroit_contenu_item a{
+    font-size: 60%;
+  }
 }
 @media screen and (max-width:660px){
   .container{
@@ -12,5 +15,9 @@
   }
   .header_nav2{
     display: block;
+  }
+  .menucotédroit_contenu_item a{
+    font-size: 39%;
+    padding: 4%;
   }
 }

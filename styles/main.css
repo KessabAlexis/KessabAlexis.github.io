@@ -96,6 +96,7 @@ MENU HAMBURGER DEROULANT
   height: auto;
   margin: 0;
   margin-right: 15px;
+  margin-top: 7px;
   position: relative;
 }
 .header_nav2_onglet{
@@ -115,11 +116,42 @@ MENU HAMBURGER DEROULANT
 /****************************************
             MAIN
 ****************************************/
+/* Menu droite */
+.menucotédroit{
+  position:fixed;
+  pointer-events:all;
+  bottom: 54%;
+  right: 0;
+  z-index: 10;
+}
+.menucotédroit_contenu{
+  display: flex;
+  flex-flow: column wrap;
+  list-style: none;
+  opacity: 0.6;
+}
+.menucotédroit_contenu_item {
+  width: 100%;
+  border-bottom: 0.5px #FFF solid;
+}
+.menucotédroit_contenu_item:nth-of-type(1){
+  border-top: 0.5px #FFF solid;
+}
+.menucotédroit_contenu_item a{
+  text-decoration: none;
+  color:#FFF;
+  padding:9%;
+  padding-left: 0;
+  font-size: 80%;
+}
+
+/*/Menu droite */
 .main{
   background: url(../images/backgroundoralbv2.png);
   color:#FFF;
   background-size:100%;
   z-index: -1;
+  padding-top: 53px;
 }
 .toothbrushpart1{
   position: relative;
@@ -215,7 +247,7 @@ cursor:pointer;
 *********************************/
 
 
-nav .barre{
+.barre{
   background: black;
   width: auto;
   height: 30px;
