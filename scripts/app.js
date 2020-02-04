@@ -1,8 +1,8 @@
 const sr = ScrollReveal();
-sr.reveal('.slogan',{
+sr.reveal('.reveal_right',{
   origin:'right',
-  duration:1000,
-  distance:'200px',
+  duration:5000,
+  distance:'1000px',
   opacity:0,
   reset:true,
 });
