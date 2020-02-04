@@ -1,5 +1,5 @@
 const sr = ScrollReveal();
-sr.reveal('.reveal_right',{
+sr.reveal('.reveal_right_oralb',{
   origin:'right',
   duration:3000,
   distance:'900px',
@@ -7,7 +7,7 @@ sr.reveal('.reveal_right',{
   reset:true,
 });
 
-sr.reveal('.reveal_left',{
+sr.reveal('.reveal_left_brosse1',{
   origin:'left',
   duration:2000,
   distance:'600px',
