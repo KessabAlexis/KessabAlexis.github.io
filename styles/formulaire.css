@@ -195,4 +195,60 @@ MENU HAMBURGER DEROULANT
 }
   /****************************************
             FOOTER
+  ****************************************//****************************************
+            FOOTER
+  ****************************************/
+  footer{
+    background-color: #0259B8;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  display: flex;
+  padding-right: 280px;
+  text-align: center;
+  margin-top: 30px;
+  }
+  .th, td{
+  color: white;
+  font-size: 12px;
+  padding-left: 35px;
+  padding-top: 5px;
+  text-align: center;
+  }
+  .td, th{
+    color: white;
+    padding-left: 35px;
+  }
+  .th, td img{
+    height: 15px;
+    display: flex;
+    margin-right: 10px;
+
+  }
+  table img {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+  .alignImg{
+    margin-left: -90px;
+  }
+  td:hover{
+  color: black;
+  cursor:pointer;
+  }
+  /*********************************
+              NAV
+  *********************************/
+  .barre{
+    background: black;
+    width: auto;
+    height: 30px;
+  }
+   .barre h4{
+     color: white;
+     text-align: center;
+     padding-top: 10px;
+     font-size: 12px;
+   }
+  /****************************************
+              /FOOTER
   ****************************************/
