@@ -169,7 +169,7 @@ MENU HAMBURGER DEROULANT
   margin-top:30px;
   margin-left: 30px;
   padding: 20px;
-  padding-top: 340px;
+
 }
 .main_article_3{
   width:630px;
@@ -192,6 +192,12 @@ MENU HAMBURGER DEROULANT
 }
 .bottomcolumns{
   display: flex;
+}
+.main_article_2_slidercouleur{
+  width: 80%;
+  border:1px #FFF solid;
+  padding-top: 340px;
+  opacity: 0.4;
 }
   /****************************************
             FOOTER
