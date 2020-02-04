@@ -131,6 +131,9 @@ MENU HAMBURGER DEROULANT
   .header_nav2{
     display: block;
   }
+  .toothbrush1{
+    margin-left: 100px;
+  }
 }
 /****************************************
           /RESPONSIVE
@@ -174,21 +177,7 @@ MENU HAMBURGER DEROULANT
   background: #FFF;
   color:black;
 }
-.slogan2{
-  animation-duration: 3s;
-  animation-name: slidein2;
-}
-@keyframes slidein2 {
-  from {
-      margin-left: 100%;
-      width: 300%;
-      opacity: 0.62;
-    }
-    to {
-      margin-left: 0;
-      width: 100%;
-    }
-}
+
 
 /****************************************
             /MAIN
