@@ -1,0 +1,244 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  width: 100%;
+}
+/****************************************
+            HEADER
+****************************************/
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+.header{
+  background:rgba(2, 89, 184, 0.5);
+  height: 57px;
+  color:#FFF;
+  border-bottom: 3px #0257B8 solid;
+  width: 100%;
+  position: fixed;
+  font-weight: bold;
+  z-index: 1;
+}
+.header_div{
+  padding-top:7px;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.header_logo{
+  height: 44px;
+  width: 124px;
+  margin: 0;
+}
+.header_bouton{
+  color:#FFF;
+  text-decoration: none;
+  margin: 0;
+  padding: 6px;
+  font-size: 88%;
+  font-weight: 300;
+  border: 0.5px #FFF solid;
+  border-radius: 16px ;
+}
+.header_menu{
+  display: flex;
+  list-style: none;
+}
+.header_menu_element{
+  padding: 6px;
+}
+.header_menu_element:hover {
+  border-bottom: 1.5px #FFF solid;
+}
+.header_droite{
+  display: flex;
+  margin: 0;
+}
+.header_menu_lien{
+  text-decoration: none;
+  color: #FFF;
+}
+.header_bouton:hover{
+  background: #FFF;
+  color:#0257B8;
+  transition: linear 0.68s;
+}
+/***********************
+MENU HAMBURGER DEROULANT
+*************************/
+.header_nav2{
+  display: none;
+}
+.header_nav2_sousmenu{
+  display: none;
+}
+.menuhamburger:hover .header_nav2_sousmenu{
+  display: block;
+  position:absolute;
+  left:0;
+  top:100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+.header_nav2 ul{
+  list-style: none;
+}
+
+.header_nav2_menuhamburger{
+  width: 30px;
+  height: auto;
+  margin: 0;
+  margin-right: 15px;
+  position: relative;
+}
+.header_nav2_onglet{
+  color:#FFF;
+  background: #0259B8;
+}
+.header_nav2_onglet a{
+  color: #FFF;
+  text-decoration: none;
+}
+/***********************
+/MENU HAMBURGER DEROULANT
+*************************/
+/****************************************
+            /HEADER
+****************************************/
+/****************************************
+            RESPONSIVE
+****************************************/
+@media screen and (max-width:1000px){
+  .container{
+    width: 660px;
+  }
+}
+@media screen and (max-width:660px){
+  .container{
+    width: 100%;
+  }
+  .header_nav{
+    display: none;
+  }
+  .header_nav2{
+    display: block;
+  }
+}
+/****************************************
+          /RESPONSIVE
+****************************************/
+/****************************************
+            MAIN
+****************************************/
+.main{
+  background: url(../images/backgroundoralbv2.png);
+  color:#FFF;
+  background-size:100%;
+  z-index: -1;
+}
+.toothbrushpart1{
+  position: relative;
+}
+.toothbrush1{
+  width: 16%;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+.main .slogan{
+  position: absolute;
+  top:50%;
+  left: 40%;
+}
+.toothbrushpart1_slogan_logo{
+  width: 90px;
+  height: auto;
+}
+.toothbrushpart1_slogan_logo:nth-of-type(2){
+  width: 50px;
+  height: auto;
+}
+span.slogan{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+      margin-left: 100%;
+      width: 300%;
+      opacity: 0.53;
+    }
+    to {
+      margin-left: 0;
+      width: 100%;
+    }
+}
+.toothbrushpart2{
+  margin: 400px;
+}
+.slogan2 strong{
+  background: #FFF;
+  color:black;
+}
+.slogan2{
+  animation-duration: 3s;
+  animation-name: slidein2;
+}
+@keyframes slidein2 {
+  from {
+      margin-left: 100%;
+      width: 300%;
+      opacity: 0.62;
+    }
+    to {
+      margin-left: 0;
+      width: 100%;
+    }
+}
+
+/****************************************
+            /MAIN
+****************************************/
+/****************************************
+          FOOTER
+****************************************/
+.footer{
+  width: 100%;
+  background:rgb(2, 89, 184);
+  color: #FFF;
+}
+.footer_contenu{
+overflow: hidden;
+padding: 40px 40px;
+display: flex;
+}
+.footer_contenu_column h5{
+  font-family: 'arial';
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.footer_contenu_column a{
+  font-family: 'arial';
+  font-size: 12px;
+  color: #FFF;
+  font-weight: 200;
+  text-decoration: none;
+}
+.logo img{
+height: 25px;
+width: auto;
+}
+.barre{
+  background: black;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+  margin-bottom: 0;
+}
+/****************************************
+            /FOOTER
+****************************************/
