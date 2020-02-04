@@ -153,6 +153,7 @@ MENU HAMBURGER DEROULANT
   z-index: -1;
   padding-top: 53px;
 }
+/*toothbrushpart1*/
 .toothbrushpart1{
   position: relative;
 }
@@ -175,14 +176,17 @@ MENU HAMBURGER DEROULANT
   width: 50px;
   height: auto;
 }
-
-.toothbrushpart2{
-  margin: 400px;
-}
 .str{
   background: #FFF;
   color:black;
 }
+/*/toothbrushpart1*/
+.toothbrushpart2_image{
+  width: 40%;
+  margin-left:62%;
+  margin-bottom: 400px;
+}
+
 
 
 /****************************************
