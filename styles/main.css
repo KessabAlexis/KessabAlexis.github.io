@@ -240,6 +240,7 @@ table img {
 
 td:hover{
 color: black;
+cursor:pointer;
 }
 
 
