@@ -6,3 +6,12 @@ sr.reveal('.reveal_right',{
   opacity:0,
   reset:true,
 });
+
+const sr = ScrollReveal();
+sr.reveal('.reveal_right',{
+  origin:'left',
+  duration:5000,
+  distance:'1000px',
+  opacity:0,
+  reset:true,
+});
