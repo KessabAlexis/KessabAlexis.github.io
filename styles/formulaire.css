@@ -112,7 +112,6 @@ MENU HAMBURGER DEROULANT
             /HEADER
 ****************************************/
 
-
 .formulaire{
   background: rgba(2,89,184,0.2);
   width: 500px;
@@ -188,7 +187,7 @@ margin-bottom: 10px;
 
 .inputb{
   border: 1px solid black;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 7px;
   width: 200px;
   transition: all 0.5s ease;
