@@ -49,6 +49,9 @@ body{
   font-size: 88%;
   font-weight: 300;
   border: 0.5px #FFF solid;
+  background: #FFF;
+  box-shadow: 0 -9px 0px #fff ;
+
 }
 .header_menu{
   display: flex;
@@ -58,7 +61,7 @@ body{
   padding: 6px;
 }
 .header_menu_element:hover {
-  border-bottom: 1.5px #FFF solid;
+box-shadow: 0 2px 0 #fff;
 }
 .header_droite{
   display: flex;
@@ -71,9 +74,8 @@ body{
 }
 .header_bouton:hover{
   background: #FFF;
-  color:#0257B8;
-  transition: linear 0.68s;
-  height: 35px;
+  box-shadow: 0 10px 0 #fff;
+
 }
 /***********************
 MENU HAMBURGER DEROULANT
@@ -84,7 +86,7 @@ MENU HAMBURGER DEROULANT
 .header_nav2_sousmenu{
   display: none;
 }
-.menuhamburger:hover .header_nav2_sousmenu{
+.menuhamburger:hover .header_nav2_sousmenu,.header_nav2_sousmenu:hover{
   position:absolute;
   left:60%;
   top:100%;
@@ -104,7 +106,8 @@ MENU HAMBURGER DEROULANT
 }
 .header_nav2_onglet{
   color:#FFF;
-  background: #0259B8;
+  background: none;
+  box-shadow: 0 1px 0px #fff ;
 }
 .header_nav2_onglet a{
   color: #FFF;
