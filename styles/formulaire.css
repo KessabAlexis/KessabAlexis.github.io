@@ -20,7 +20,6 @@ body{
   color:#FFF;
   border-bottom: 1.2px #FFF solid;
   width: 100%;
-
   font-weight: bold;
   z-index: 10;
 }
@@ -70,7 +69,6 @@ box-shadow: 0 2px 0 #fff;
 .header_bouton:hover{
   background: #FFF;
   box-shadow: 0 10px 0 #fff;
-
 }
 /***********************
 MENU HAMBURGER DEROULANT
@@ -126,7 +124,6 @@ main{
   position: relative;
   color:#FFF;
 }
-
 .column_droite h4{
   color: gold;
   text-align: center;
@@ -135,45 +132,36 @@ main{
   padding-bottom: 5%;
   font-family: 'Poppins', sans-serif;
 }
-
 .column_droite h2 span{
   color: gold;
 }
 .column_droite a{
   color: white;
 }
-
 .column_droite h2{
   text-align: center;
   padding-top: 1%;
   font-size: 0.75em;
-
   font-family: 'Poppins', sans-serif;
-
   text-align:center;
-
   padding-bottom: 5%;
 }
-
 .column_droite h3{
   text-align: center;
   padding-top: 1%;
   font-size: 0.5em;
   font-family: 'Poppins', sans-serif;
 }
-
 .column_droite p{
   text-align: center;
   margin: 0;
   font-size: 1.2em;
   font-family: 'neutraface2';
 }
-
 .form_brosse input{
 display: block;
 margin-bottom: 10px;
 }
-
 .inputb{
   border: 0.5px solid black;
   border-radius: 5px;
@@ -181,7 +169,6 @@ margin-bottom: 10px;
   width: 62%;
   transition: all 0.5s ease;
 }
-
 .input_image1{
   height: 4%;
   position: absolute;
@@ -195,7 +182,6 @@ margin-bottom: 10px;
   top:66%;
   left: 14.5%;
 }
-
 .inputb:hover{
   background-color: black;
   color: white;
@@ -252,7 +238,45 @@ padding: 5px;
   display: flex;
   align-items: center;
 }
-/***************************************
+.choixcouleurs{
+  padding:10px;
+  margin-left:3.4%;
+}
+.choixcouleurs_liste{
+  display: flex;
+}
+.choixcouleurs_noir span{
+  margin: 0
+}
+.choixcouleurs_noir_carré{
+  height: 60%;
+  width: 60%;
+  background: black;
+  color:black;
+  margin: 0;
+}
+.choixcouleurs_rose_carré{
+  height: 50%;
+  width: 50%;
+  background: pink;
+  color:pink;
+  margin: 0;
+}
+.choixcouleurs_violet_carré{
+  height: 50%;
+  width: 50%;
+  background: purple;
+  color:purple;
+  margin: 0;
+}
+.choixcouleurs_blanc_carré{
+  height: 50%;
+  width: 50%;
+  background: #FFF;
+  color:#FFF;
+  margin: 0;
+}
+  /***************************************
             FOOTER
   ****************************************/
   footer{
@@ -279,7 +303,6 @@ padding: 5px;
     height: 15px;
     display: flex;
     margin-right: 10px;
-
   }
   table img {
     margin-left: 0;
@@ -306,7 +329,6 @@ padding: 5px;
      padding-top: 10px;
      font-size: 12px;
    }
-
   /****************************************
             FOOTER
   ****************************************/
