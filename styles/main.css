@@ -4,8 +4,9 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-  background: url(../images/backgroundoralbv2.png);
+  background: url(../images/backgroundoralbv2.png) ;
   background-size:100%;
+
   overflow-x:hidden;
 }
 

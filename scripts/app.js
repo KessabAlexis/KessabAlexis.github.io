@@ -39,7 +39,7 @@ sr.reveal('.scroll_normaltext_left',{
 sr.reveal('.scroll_normaltext_right',{
   reset:true,
   opacity:0,
-  duration:2000,
+  duration: 1500,
   distance:'1200px',
   origin:'right',
 });
