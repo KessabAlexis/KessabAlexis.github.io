@@ -155,15 +155,15 @@ MENU HAMBURGER DEROULANT
   position: relative;
 }
 .toothbrush1{
-  width: 16%;
+  width: 14%;
   height: auto;
   margin-top: 100px;
-  margin-left: 18%;
+  margin-left: 11.5%;
 }
 .main .slogan{
   position: absolute;
-  top:50%;
-  left: 40%;
+  top:13%;
+  left: 30%;
 }
 .toothbrushpart1_slogan_logo{
   width: 90px;
@@ -178,12 +178,24 @@ MENU HAMBURGER DEROULANT
   color:black;
 }
 .testgraphique{
-  width: 230px;
-  height: 145px;
+  height: 280px;
   background: rgba(34,53,32,0.6);
+  width: 520px;
+  padding: 20px;
+}
+.toothbrushpart1_infos{
   margin: 20px;
   margin-left: 0;
   padding: 5px;
+  display: flex;
+  position: absolute;
+  top:33%;
+  left:30%;
+
+}
+.toothbrushpart1_infos p{
+  width: 240px;
+  margin-left: 20px;
 }
 /*/toothbrushpart1*/
 /*toothbrushpart2*/
@@ -199,8 +211,13 @@ MENU HAMBURGER DEROULANT
 .toothbrushpart2_texte{
   max-width: 40%;
   position: absolute;
-  top:16%;
+  top:0%;
   left:18%;
+}
+.toothbrushpart2_infos{
+  position: absolute;
+  top:24%;
+  right: 43.2%;
 }
 /*/toothbrushpart2*/
 /*toothbrushpart3*/
