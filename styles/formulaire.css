@@ -157,7 +157,7 @@ MENU HAMBURGER DEROULANT
 .button:hover{
   background: black;
   color:#FFF;
-    transition: 0.75s linear;
+  transition: 0.75s linear;
 }
 .form_section{
   margin: 10px;
