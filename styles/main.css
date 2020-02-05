@@ -133,6 +133,7 @@ MENU HAMBURGER DEROULANT
 .menucotédroit_contenu_item {
   width: 100%;
   border-bottom: 0.5px #FFF solid;
+  padding-right: 1em;
 }
 
 .menucotédroit_contenu_item:hover{
@@ -232,13 +233,21 @@ MENU HAMBURGER DEROULANT
 }
 .toothbrushpart3_image{
   width: 14.5%;
-  margin-left: 24%;
+  margin-left: 18%;
 }
 .toothbrushpart3_texte{
-  max-width: 37%;
+  max-width: 17%;
   position: absolute;
-  top:38%;
-  left:45%;
+  top:7%;
+  left:39%;
+}
+.toothbrushpart3_infos{
+  color:red;
+}
+.toothbrushpart3_infos_phrase{
+  position: absolute;
+  top:67%;
+  left:39%;
 }
 /* /toothbrushpart3*/
 /*toothbrushpart4*/
@@ -262,8 +271,13 @@ MENU HAMBURGER DEROULANT
 .toothbrushpart4_texte{
   width: 40%;
   position: absolute;
-  top:22%;
-  left:30%;
+  top:0;
+  left:20%;
+}
+.toothbrushpart4_infos{
+  position: absolute;
+  top:120%;
+  left: 0;
 }
 /*toothbrushpart4*/
 /****************************************
