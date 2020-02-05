@@ -128,12 +128,17 @@ MENU HAMBURGER DEROULANT
   display: flex;
   flex-flow: column wrap;
   list-style: none;
-  opacity: 0.6;
+  opacity:0.6;
 }
 .menucotédroit_contenu_item {
   width: 100%;
   border-bottom: 0.5px #FFF solid;
 }
+
+.menucotédroit_contenu_item:hover{
+  font-weight: 500;
+}
+
 .menucotédroit_contenu_item:nth-of-type(1){
   border-top: 0.5px #FFF solid;
 }
