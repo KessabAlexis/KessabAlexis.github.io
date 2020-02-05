@@ -26,7 +26,7 @@ body{
   width: 100%;
   position: fixed;
   font-weight: bold;
-  z-index: 1;
+  z-index: 10;
 }
 .header_div{
   padding-top:7px;
@@ -273,12 +273,14 @@ MENU HAMBURGER DEROULANT
 }
 .toothbrushpart4_image_1{
   width: 30%;
+  z-index: 1;
 }
 .toothbrushpart4_image_2{
   width: 32%;
   position: absolute;
   top:94%;
   left:-0.9%;
+  z-index: 2;
 }
 .toothbrushpart4_texte{
   width: 40%;
