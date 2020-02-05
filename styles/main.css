@@ -12,7 +12,6 @@ body{
   scroll-behavior: : smooth;
   overflow-x:hidden;
 }
-
 /****************************************
             HEADER
 ****************************************/
@@ -217,6 +216,13 @@ MENU HAMBURGER DEROULANT
   width: 240px;
   margin-left: 20px;
 }
+.scroll_normaltext_right{
+  padding-top:1%;
+}
+
+.scroll_normaltext_left{
+  padding-top:1%;
+}
 /*/toothbrushpart1*/
 /*toothbrushpart2*/
 .toothbrushpart2{
@@ -250,7 +256,7 @@ MENU HAMBURGER DEROULANT
   margin-left: 18%;
 }
 .toothbrushpart3_texte{
-  max-width: 17%;
+  max-width: 25%;
   position: absolute;
   top:7%;
   left:39%;
