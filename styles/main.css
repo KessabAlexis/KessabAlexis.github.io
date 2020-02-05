@@ -192,7 +192,7 @@ MENU HAMBURGER DEROULANT
 }
 .testgraphique{
   height: 280px;
-  background: rgba(34,53,32,0.6);
+  background: rgba(34,53,32,0);
   width: 520px;
   padding: 20px;
   position: relative;
@@ -201,9 +201,21 @@ MENU HAMBURGER DEROULANT
   position: absolute;
   bottom:0;
   right: 0;
-  font-size: 0.6em;
-  opacity: 0.4;
+  font-size: 80%;
+  opacity: 1;
 }
+
+.aaa{
+  max-width:85%;
+  top:-10%;
+  position:absolute;
+  left:15%;
+}
+
+.bbb{
+  box-shadow:1px 0 #FFF;
+}
+
 .toothbrushpart1_infos{
   margin: 20px;
   margin-left: 0;
@@ -212,7 +224,6 @@ MENU HAMBURGER DEROULANT
   position: absolute;
   top:33%;
   left:30%;
-
 }
 .toothbrushpart1_infos p{
   width: 240px;
