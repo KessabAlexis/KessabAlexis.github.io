@@ -194,6 +194,14 @@ MENU HAMBURGER DEROULANT
   background: rgba(34,53,32,0.6);
   width: 520px;
   padding: 20px;
+  position: relative;
+}
+.testgraphique span{
+  position: absolute;
+  bottom:0;
+  right: 0;
+  font-size: 0.6em;
+  opacity: 0.4;
 }
 .toothbrushpart1_infos{
   margin: 20px;
