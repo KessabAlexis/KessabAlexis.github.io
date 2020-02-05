@@ -252,7 +252,58 @@ padding: 5px;
   display: flex;
   align-items: center;
 }
-/***************************************
+.choixcouleurs{
+  padding:10px;
+  margin-left:3.4%;
+}
+.choixcouleurs_liste{
+  display: flex;
+}
+.choixcouleurs_noir span{
+  margin: 0
+}
+.choixcouleurs_noir_carré{
+  height: 60%;
+  width: 60%;
+  background: black;
+  color:black;
+  margin: 0;
+}
+.choixcouleurs_rose_carré{
+  height: 50%;
+  width: 50%;
+  background: pink;
+  color:pink;
+  margin: 0;
+}
+.choixcouleurs_violet_carré{
+  height: 50%;
+  width: 50%;
+  background: purple;
+  color:purple;
+  margin: 0;
+}
+.choixcouleurs_blanc_carré{
+  height: 50%;
+  width: 50%;
+  background: #FFF;
+  color:#FFF;
+  margin: 0;
+}
+.column_gauche_imagebrosseàdent_2{
+  display: none;
+}
+.column_gauche_imagebrosseàdent_3{
+  display: none;
+}
+.column_gauche_imagebrosseàdent_4{
+  display: none;
+}
+.choixcouleurs_rose_carré:hover .column_gauche_imagebrosseàdent_2{
+  display:block;
+}
+
+  /***************************************
             FOOTER
   ****************************************/
   footer{
@@ -279,7 +330,6 @@ padding: 5px;
     height: 15px;
     display: flex;
     margin-right: 10px;
-
   }
   table img {
     margin-left: 0;
