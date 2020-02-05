@@ -20,7 +20,6 @@ body{
   color:#FFF;
   border-bottom: 1.2px #FFF solid;
   width: 100%;
-
   font-weight: bold;
   z-index: 10;
 }
@@ -70,7 +69,6 @@ box-shadow: 0 2px 0 #fff;
 .header_bouton:hover{
   background: #FFF;
   box-shadow: 0 10px 0 #fff;
-
 }
 /***********************
 MENU HAMBURGER DEROULANT
@@ -126,7 +124,6 @@ main{
   position: relative;
   color:#FFF;
 }
-
 .column_droite h4{
   color: gold;
   text-align: center;
@@ -135,45 +132,36 @@ main{
   padding-bottom: 5%;
   font-family: 'Poppins', sans-serif;
 }
-
 .column_droite h2 span{
   color: gold;
 }
 .column_droite a{
   color: white;
 }
-
 .column_droite h2{
   text-align: center;
   padding-top: 1%;
   font-size: 0.75em;
-
   font-family: 'Poppins', sans-serif;
-
   text-align:center;
-
   padding-bottom: 5%;
 }
-
 .column_droite h3{
   text-align: center;
   padding-top: 1%;
   font-size: 0.5em;
   font-family: 'Poppins', sans-serif;
 }
-
 .column_droite p{
   text-align: center;
   margin: 0;
   font-size: 1.2em;
   font-family: 'neutraface2';
 }
-
 .form_brosse input{
 display: block;
 margin-bottom: 10px;
 }
-
 .inputb{
   border: 0.5px solid black;
   border-radius: 5px;
@@ -181,7 +169,6 @@ margin-bottom: 10px;
   width: 62%;
   transition: all 0.5s ease;
 }
-
 .input_image1{
   height: 4%;
   position: absolute;
@@ -195,7 +182,6 @@ margin-bottom: 10px;
   top:66%;
   left: 14.5%;
 }
-
 .inputb:hover{
   background-color: black;
   color: white;
@@ -290,19 +276,6 @@ padding: 5px;
   color:#FFF;
   margin: 0;
 }
-.column_gauche_imagebrosseàdent_2{
-  display: none;
-}
-.column_gauche_imagebrosseàdent_3{
-  display: none;
-}
-.column_gauche_imagebrosseàdent_4{
-  display: none;
-}
-.choixcouleurs_rose_carré:hover .column_gauche_imagebrosseàdent_2{
-  display:block;
-}
-
   /***************************************
             FOOTER
   ****************************************/
@@ -356,7 +329,6 @@ padding: 5px;
      padding-top: 10px;
      font-size: 12px;
    }
-
   /****************************************
             FOOTER
   ****************************************/

@@ -80,12 +80,7 @@ box-shadow: 0 2px 0 #fff;
 /***********************
 MENU HAMBURGER DEROULANT
 *************************/
-.header_nav2{
-  display: none;
-}
-.header_nav2_sousmenu{
-  display: none;
-}
+
 .menuhamburger:hover .header_nav2_sousmenu,.header_nav2_sousmenu:hover{
   position:absolute;
   left:60%;
