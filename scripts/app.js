@@ -63,7 +63,7 @@ sr.reveal('.scroll_brosse_charg',{
 sr.reveal('.aaa',{
   reset:true,
   opacity:0,
-  duration:500,
-  distance:'300px',
-  origin:'right',
+  duration:3000,
+  distance:'500px',
+  origin:'left',
 });
