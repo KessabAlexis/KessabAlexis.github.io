@@ -119,9 +119,16 @@ main{
 }
 .column_droite{
   background: rgba(2,89,184,0.2);
+
   width: 40%;
   height: 600px;
   margin: 0;
+  width: 500px;
+  height: 750px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 1000px;
   border-radius: 5px;
   position: relative;
   color:#FFF;
