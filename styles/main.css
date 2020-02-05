@@ -12,7 +12,6 @@ body{
   scroll-behavior: : smooth;
   overflow-x:hidden;
 }
-
 /****************************************
             HEADER
 ****************************************/
@@ -27,7 +26,7 @@ body{
   width: 100%;
   position: fixed;
   font-weight: bold;
-  z-index: 1;
+  z-index: 10;
 }
 .header_div{
   padding-top:7px;
@@ -50,7 +49,7 @@ body{
   font-weight: 300;
   border: 0.5px #FFF solid;
   background: #FFF;
-  box-shadow: 0 -9px 0px #fff ;
+  box-shadow: 0 -20px 0px #fff ;
 
 }
 .header_menu{
@@ -74,7 +73,8 @@ box-shadow: 0 2px 0 #fff;
 }
 .header_bouton:hover{
   background: #FFF;
-  box-shadow: 0 10px 0 #fff;
+  box-shadow: 0 12px #fff,
+   0 -10px #fff;
 
 }
 /***********************
@@ -144,6 +144,7 @@ MENU HAMBURGER DEROULANT
 
 .menucotédroit_contenu_item:hover{
   font-weight: 500;
+  color:rgba(0, 0, 0, 1);
 }
 
 .menucotédroit_contenu_item:nth-of-type(1){
@@ -191,10 +192,30 @@ MENU HAMBURGER DEROULANT
 }
 .testgraphique{
   height: 280px;
-  background: rgba(34,53,32,0.6);
+  background: rgba(34,53,32,0);
   width: 520px;
   padding: 20px;
+  position: relative;
 }
+.testgraphique span{
+  position: absolute;
+  bottom:0;
+  right: 0;
+  font-size: 80%;
+  opacity: 1;
+}
+
+.aaa{
+  max-width:85%;
+  top:-10%;
+  position:absolute;
+  left:15%;
+}
+
+.bbb{
+  box-shadow:1px 0 #FFF;
+}
+
 .toothbrushpart1_infos{
   margin: 20px;
   margin-left: 0;
@@ -203,11 +224,17 @@ MENU HAMBURGER DEROULANT
   position: absolute;
   top:33%;
   left:30%;
-
 }
 .toothbrushpart1_infos p{
   width: 240px;
   margin-left: 20px;
+}
+.scroll_normaltext_right{
+  padding-top:1%;
+}
+
+.scroll_normaltext_left{
+  padding-top:1%;
 }
 /*/toothbrushpart1*/
 /*toothbrushpart2*/
@@ -242,7 +269,7 @@ MENU HAMBURGER DEROULANT
   margin-left: 18%;
 }
 .toothbrushpart3_texte{
-  max-width: 17%;
+  max-width: 25%;
   position: absolute;
   top:7%;
   left:39%;
@@ -267,12 +294,14 @@ MENU HAMBURGER DEROULANT
 }
 .toothbrushpart4_image_1{
   width: 30%;
+  z-index: 1;
 }
 .toothbrushpart4_image_2{
   width: 32%;
   position: absolute;
   top:94%;
   left:-0.9%;
+  z-index: 2;
 }
 .toothbrushpart4_texte{
   width: 40%;
@@ -297,7 +326,7 @@ footer{
 padding-bottom: 25px;
 padding-top: 25px;
 display: flex;
-padding-right: 280px;
+padding-right: ;
 text-align: center;
 }
 .th, td{

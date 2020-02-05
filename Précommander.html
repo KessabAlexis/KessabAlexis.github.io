@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <title>Oral-b.io</title>
     <meta name="Oral-b.io Brosse à dent electrique connectée bluetooth smart" content="Nouvelle brosse à dent connectée d'Oral-b. La Oral-b.io">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/formulaire.css">
+    <link rel="stylesheet" href="styles/responsive.css">
   </head>
   <body>
     <header class="header">
@@ -14,7 +15,7 @@
         <div class="header_droite">
           <nav class="header_nav">
             <ul class="header_menu">
-              <li class="header_menu_element"><a href="index.html" class="header_menu_lien">ACCUEIL</a></li>
+              <li class="header_menu_element"><a href="#" class="header_menu_lien">ACCUEIL</a></li>
               <li class="header_menu_element"><a href="#" class="header_menu_lien">CARACTÉRISTIQUES</a></li>
             </ul>
           </nav>
@@ -22,95 +23,119 @@
             <ul>
               <li class="menuhamburger"><a href="#"><img src="images/menuhamburger.png" alt="menu hamburger" class="header_nav2_menuhamburger"></a>
                 <ul class="header_nav2_sousmenu">
-                  <li class="header_nav2_onglet"><a href="index.html">Accueil</a></li>
+                  <li class="header_nav2_onglet"><a href="#">Accueil</a></li>
                   <li class="header_nav2_onglet"><a href="#">Caractéristiques</a></li>
                 </ul>
               </li>
             </ul>
           </nav>
-          <a href="#" class="header_bouton">PRÉCOMMANDE</a>
+          <a href="Précommander.html" class="header_bouton">PRÉCOMMANDE</a>
         </div>
       </div>
     </header>
-    <main class="container main">
-      <div class="main_columns">
-        <article class="main_article_1 ">
-          <p>Précommander votre brosse maintenant !<p>
-          <p>Vous pouvez précommander votre brosse à dent Oral-B io tout de suite pour être livré directement à sa sorti et être sur de l'obtenir</p>
-          <form action="#" method="post" class="main_article_form">
-            <caption>informations</caption>
-            <div class="form_section">
-              <label for="name">Nom</label>
-              <input type="text" id="name" name="user_name" value="nom prénom" class="form_input">
-            </div>
-            <div class="form_section">
-              <label for="mail">e-mail</label>
-              <input type="email" id="mail" name="user_mail" value="example@mail.com" class="form_input">
-            </div>
-            <div>
-              <button type="submit" class="button">Valider</button>
-            </div>
-          </form>
-        </article>
-        <article class="main_article_2">
-          <div class="main_article_2_slidercouleur">
-            slider avec des photos de la brosse à dent en toutes les couleurs qui défile
-          </div>
-          <form action="#" method="post">
-            <div>
-              <label for="color">Couleur</label>
-              <select>
-                <option type="checkbox" id="color" name="color" value="color" class="form_input"></option>
-              </select>
-            </div>
-            <div>
-              <label for="number">Nombre</label>
-              <select>
-                <option type="checkbox" id="number" name="number" value="number"></option>
-              </select>
-            </div>
-          </form>
-        </article>
-    </div>
-    <div class="bottomcolumns">
-      <article class="main_article_3">
-        <p>Livraison</p>
-      </article>
-      <button class="form_finalbutton">Envoyer•••</button>
-    </div>
-    </main>
-    <footer>
-      <table summary="footer">
-        <div class="tableau">
-         <thead>
-           <tr>
-             <th>Mentions légales</th>
-             <th>Obtenir de l'aide</th>
-             <th>Informations</th>
-             <th>Nous Suivre</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-           <td>Conditions d’utilisations</td>
-           <td>Nous Contacter</td>
-           <td>Tout sur Oral-B</td>
-           <td><a target="_blank" href="https://www.facebook.com/oralbfrance/"><img src="images/logof.png"></a></td>
-           <td> <a target="_blank" href="https://twitter.com/oralb_FR"><img src="images/logot.png" class="alignImg"></a></td>
-          </tr>
-          <tr>
-            <td>Notification de confidentialité</td>
-            <td>Services Après Vente</td>
-            <td>Actus & Promos</td>
-            <td><a target="_blank" href="https://www.instagram.com/oralb/"><img src="images/logoi.png"></a></td>
-            <td><a target="_blank" href="https://www.youtube.com/channel/UCAIpPUNdgyLmaOl3LMoELGw"><img src="images/logoy.png" class="alignImg"></a></td>
-          </tr>
-          <tr>
-           <td>Plan du site</td>
-           <td>Langues</td>
-           <td>Aides</td>
-        </tbody>
-    </table>
+   <main>
+     <div class="main_container container">
+       <div class="column_gauche">
+          <div class="column_gauche_cadre">
+             <img src="images/brossedentv2.png" alt="brosse à dent électrique brosse a dent connecté bluetooth" class="column_gauche_imagebrosseàdent_1"/>
+             <img src="images/brossedentv6.png" alt="brosse à dent électrique brosse a dent connecté bluetooth" class="column_gauche_imagebrosseàdent_2"/>
+             <img src="images/brossedentv3.png" alt="brosse à dent électrique brosse a dent connecté bluetooth" class="column_gauche_imagebrosseàdent_3"/>
+             <img src="images/brossedentv4.png" alt="brosse à dent électrique brosse a dent connecté bluetooth" class="column_gauche_imagebrosseàdent_4"/>
+           </div>
+           <div class="choixcouleurs">
+             <label for="color">Couleur</label>
+             <div class="choixcouleurs_liste">
+               <div>
+                 <span>Noir</span>
+                 <div class="choixcouleurs_noir_carré"></div>
+               </div>
+               <div>
+                 <span>Rose</span>
+                 <div class="choixcouleurs_rose_carré"></div>
+               </div>
+               <div>
+                 <span>Violet</span>
+                 <div class="choixcouleurs_violet_carré"></div>
+               </div>
+               <div>
+                 <span>Blanc</span>
+                 <div class="choixcouleurs_blanc_carré"></div>
+               </div>
+             </div>
+           </div>
+         <form action="#" method="post">
+           <div>
+             <label for="number">Nombre</label>
+             <select>
+               <option value="1"> 1</option>
+               <option value="2"> 2</option>
+               <option value="3"> 3</option>
+               <option value="4"> 4</option>
+             </select>
+           </div>
+        </form>
+       </div>
+       <div class="column_droite">
+             <h4>Oral-B iO electric toothbrush</h4>
+             <h2>Inscrivez-vous pour bénéficier de mises à jour exclusives, d'un accès en pré-commande et d'une chance de gagner une brosse à dents électrique Oral-B iO <span>gratuite</span>.</h2>
+             <p>-- Informations --</p>
+            <form class="form_brosse">
+              <input type="text" placeholder="Nom" class="inputb"/>
+              <input type="text" placeholder="Prénom" class="inputb"/>
+              <input type="text" placeholder="exemple@gmail.com" class="inputb"/>
+              <input type="password" placeholder="Mot De Passe"class="inputb"/>
+              <input type="submit" value="Valider" class="bouton"/>
+              <h3>En m'inscrivant, j'accepte de recevoir des courriels d'Oral B et d'autres marques et programmes de confiance de P&G. Cliquez pour lire les <a href="#">conditions générales </a> et la <a href="#">politique de confidentialité</a> de P&G.</h3>
+            </form>
+            <img src="images/mail.png" class="input_image1">
+            <img src="images/key.png" class="input_image2">
+         </div>
+       </div>
+       <div class="barrebas">
+         <div class="barrebas_column1">
+           <a href="#">Service Clients</a>
+           <a href="#">Aide</a>
+         </div>
+         <div class="barrebas_column2">
+           fdkbjsnlq,
+         </div>
+         <div class="barrebas_column3">
+           <button class="column3_bouton">Participer à notre évenement"</button>
+         </div>
+       </div>
+   </main>
+   <footer>
+  <table summary="footer">
+    <div class="tableau">
+     <thead>
+       <tr>
+         <th>Mentions légales</th>
+       <th>Obtenir de l'aide</th>
+       <th>Informations</th>
+       <th>Nous Suivre</th>
+     </tr>
+    </thead>
+    <tbody>
+      <tr>
+       <td>Conditions d’utilisations</td>
+       <td>Nous Contacter</td>
+       <td>Tout sur Oral-B</td>
+       <td><a target="_blank" href="https://www.facebook.com/oralbfrance/"><img src="images/logof.png"></a></td>
+       <td> <a target="_blank" href="https://twitter.com/oralb_FR"><img src="images/logot.png" class="alignImg"></a></td>
+      </tr>
+      <tr>
+      <td>Notification de confidentialité</td>
+      <td>Services Après Vente</td>
+      <td>Actus & Promos</td>
+      <td><a target="_blank" href="https://www.instagram.com/oralb/"><img src="images/logoi.png"></a></td>
+      <td><a target="_blank" href="https://www.youtube.com/channel/UCAIpPUNdgyLmaOl3LMoELGw"><img src="images/logoy.png" class="alignImg"></a></td>
+      </tr>
+      <tr>
+       <td>Plan du site</td>
+       <td>Langues</td>
+       <td>Aides</td>
+    </tbody>
+</table>
 </footer>
 <nav>
  <div class="barre">

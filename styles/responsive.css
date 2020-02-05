@@ -8,6 +8,9 @@
   .toothbrush1,.toothbrushpart2_image,.toothbrushpart3_image,.toothbrushpart4_image_1,.toothbrushpart4_image_2{
     min-width: 112px;
   }
+  .testgraphique{
+    width: 80%;
+  }
 }
 @media screen and (max-width:660px){
   .container{
@@ -27,6 +30,9 @@
     min-width: 112px;
   }
   .testgraphique{
+    display: block;
+  }
+  .toothbrushpart1_infos{
     display: block;
   }
 }
