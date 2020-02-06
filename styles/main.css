@@ -422,13 +422,21 @@ td img{
     margin-left: 0;
     padding-left: 15px;
   }
-
+tbody{
+  position: relative;
+}
   td:hover{
   color: #EF6461;
   cursor:pointer;
   }
+
   .alignImg{
     position: absolute;
+    left:790px;
+  }
+  .alignImg2{
+    position: absolute;
+    left: 740px;
   }
   /*********************************
               NAV
