@@ -7,10 +7,6 @@ body{
   width: 100%;
   background:url(../images/backgroundoralbv2.png);
   background-size:100%;
-    overflow-x:hidden;
-}
-html{
-  scroll-behavior: smooth;
 }
 /****************************************
             HEADER
@@ -24,7 +20,9 @@ html{
   color:#FFF;
   border-bottom: 1.2px #FFF solid;
   width: 100%;
+  position: fixed;
   font-weight:500;
+  z-index: 10;
 }
 .header_div{
   padding-top:7px;
@@ -136,7 +134,7 @@ main{
   width:87%;
   margin:0;
   margin-left: 1%;
-  background: black;
+ background: rgba(0, 19, 35, 0.91);
   padding: 19px;
   position: relative;
   margin-right: 0;
@@ -167,6 +165,7 @@ main{
 }
 .contenu_sur_image1{
   width: 37%;
+
 }
 .contenu_sur_image2{
   width: 15.3%;
@@ -180,6 +179,9 @@ main{
   color:#FFF;
   margin-top: 15%;
   margin-right:20%;
+}
+.mdp1{
+padding-left: 15px;
 }
 .contenu_droite_texte{
   padding-bottom: 10px;
@@ -196,6 +198,12 @@ main{
 input:hover{
   background:black;
   color:#FFF;
+}
+
+.contenu_sur_texte span{
+  color: white;
+  text-transform: none;
+
 }
 .contenu_droite_formulaire div{
 
@@ -218,6 +226,11 @@ input:hover{
   font-size: 0.55em;
   margin-bottom: 4%;
 }
+.formulaire_conditions span{
+  text-transform: none;
+  color: white;
+}
+
 .contenu_droite_formulaire caption{
   margin-bottom: 4%;
 }
@@ -236,6 +249,9 @@ input:hover{
 .formulaire_contenu1_ecart2{
   margin-left: 49px;
 }
+.form_endbutton:hover{
+ background-color: #EF6461;
+}
 .contenudroite_reseaux_container{
   display: flex;
 }
@@ -247,7 +263,7 @@ input:hover{
   width: 100%;
   margin-top: 2%;
   padding-bottom: 50px;
-  color:#FFF;
+  color: #bdc3c7;
   position: relative;
 }
 .reseaux_droite{
@@ -265,24 +281,25 @@ input:hover{
   font-size:0.82em;
 }
 .contenu_droite_reseaux_site{
-  display: flex;
-  align-items: center;
+padding-top: 15px;
   margin-top: 16px;
 }
 .contenu_droite_reseaux_site img{
   width: 17%;
   margin-right: 490px;
+  margin-left: 15px;
 }
 .contenu_droite_reseaux_site p{
   margin-right: 0;
   margin-left: 0;
 }
-.contenu_droite_reseaux_logos{
-
-
-  display: flex;
-
+.spacecode{
+padding-top: 20px;
+color : #bdc3c7;
 }
+.contenu_droite_reseaux_logos{
+}
+
 .contenu_droite_reseaux_logos img{
   width: 37px;
   margin: 10px;
@@ -319,24 +336,29 @@ input:hover{
   font-weight: bolder;
 }
 .reseaux_droite a{
+font-size: 13px;
+}
+
+.reseaux_droite_lien{
+  color: white;
+  font-size: 1.7em;
+}
+.reseaux_droite a{
   text-decoration:none;
   color:#FFF;
   margin-top: 30px;
   font-size: 0.7em;
 }
-.reseaux_droite a:hover{
-  color:black;
-  position: absolute;
-  top:30%;
-  left:30%;
-}
+
 .contenu_droite_details{
   margin-top:7px;
   background: #001323;
 }
 .contenu_droite_details>p{
-  padding-top: 10px;
+  padding-top: 40px;
   font-size: 1.07em;
+  margin-top: 10px;
+}
 }
 .contenu_droite_details_liste{
   color:grey;
