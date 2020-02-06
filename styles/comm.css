@@ -1,7 +1,10 @@
 *{
   margin: 0 auto;
-  padding: 0;
+}
+
+html{
   font-family: 'Neutraface2Text', sans-serif;
+
 }
 body{
   width: 100%;
