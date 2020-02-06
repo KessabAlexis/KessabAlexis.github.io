@@ -35,4 +35,7 @@
   .toothbrushpart1_infos{
     display: block;
   }
+  .menucotédroit{
+    display: none;
+  }
 }
