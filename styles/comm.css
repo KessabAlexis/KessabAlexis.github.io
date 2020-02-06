@@ -394,8 +394,65 @@ padding-left:5em;
       width:300px;
     }
     .app{
+<<<<<<< HEAD
+=======
+      display:none;
+    }
+    .lapp{
+      display: none;
+    }
+    img:not(.spe_responsive){
+>>>>>>> parent of ef03e2c... Fin responsive comm :iphone:
       display:none;
     }
     p{
       font-size:0.1em;
     }
+<<<<<<< HEAD
+=======
+  .infotel img:not(.spe_responsive){
+    display:none;
+  }
+  .spe_responsive{
+    position:absolute;
+    max-width:5em;
+    left:70%;
+  }
+  .communication{
+    background:none;
+    margin-bottom:none; /* tentative de suppression du margin-bottom visible sur l'inspecteur.*/
+  }
+  .communication h1{
+    font-size:1em;
+  }
+  .communication p{
+    font-size:0.5em;
+    outline:inherit;
+    padding-left:35%;
+  }
+  .qr h2{
+    font-size:1em;
+  }
+  .qr p{
+    font-size:0.5em;
+  }
+  .infotel{
+    height:auto;
+    width:auto;
+    margin:2em 5em 0 1em;
+
+  }
+  .infotel h2{
+    font-size:1em;
+  }
+  .infotel p{
+    font-size:0.5em;
+  }
+  footer{
+    display:none;
+  }
+  .barre{
+    display:none;
+  }
+}
+>>>>>>> parent of ef03e2c... Fin responsive comm :iphone:
