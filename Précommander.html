@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/formulaire.css">
     <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/main.css"
   </head>
   <body>
     <header class="header">
@@ -45,24 +46,26 @@
             <p>Retrouvez plus d'informations sur nos réseaux...</p>
             <div>
             <div class="contenu_droite_reseaux_logos">
-              <a target="_blank" href="https://www.facebook.com/oralbfrance/"><img src="images/logof.png"></a>
-              <a target="_blank" href="https://www.instagram.com/oralb/"><img src="images/logoi.png"></a>
-              <a target="_blank" href="https://twitter.com/oralb_FR"><img src="images/logot.png"></a>
-              <a target="_blank" href="https://www.youtube.com/channel/UCAIpPUNdgyLmaOl3LMoELGw"><img src="images/logoy.png"></a>
+              <img src="images/logof.png">
+              <img src="images/logoi.png">
+              <img src="images/logot.png">
+              <img src="images/logoy.png">
             </div>
             <div class="contenu_droite_reseaux_site">
-              <a target="_blank" href="https://www.oralb.fr/fr-fr"><img src="images/logo.png" alt="logo Oral-b"></a>
+              <p>notre site...</p>
+              <img src="images/logo.png">
             </div>
           </div>
           <div class="reseaux_droite">
-            <h3>Et en vrai !</h3><p>Quelques informations sur le #WorldIO et nos applications...</p>
-            <a href="comm.html" class="reseaux_droite_lien">en savoir plus...</a>
+            <h3>Et en vrai !</h3><p>Participez à l'évenement World io pour avoir une chance d'obtenir une Oral-B io gratuitement !</p>
+            <a href="comm.html">En savoir plus...</a>
             <div class="reseaux_image_event">
               <img src="images/PARISv2.png">
               <div class="image_event_textsur">
                 Paris, France
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -73,22 +76,22 @@
         <img src="images/io.png" class="contenu_sur_image2">
       </div>
       <div class="contenu_sur_texte">
-        <p>Inscrivez-vous pour bénéficier de mises à jour exclusives,</p>
-        <p>d'un accès en pré-commande et d'une chance de gagner</p>
-        <p>une brosse à dents électrique Oral-B iO <span>gratuite</span>.</p>
+        <p>Brosse à dent Oral-B io électrique IA connectée bluetooth</p>
+        <p>Livrée avec 3 têtes, une boite, un chargeur magnétique</p>
+        <p>directement connectée à votre smartphone avec notre application</p>
       </div>
     </div>
     <div class="contenu_droite">
-      <p class="contenu_droite_texte">Disponible le 06/06/2020</p>
+      <p class="contenu_droite_texte">pas en stock avant le 00/00/2020</p>
       <h3 class="contenu_droite_titre">PRÉCOMMANDER</h3>
       <form action:"#" method="post" class="contenu_droite_formulaire">
         <caption>informations</caption>
         <div class="formulaire_contenu1">
           <div>
-            <label for="mail">E-mail</label>
-            <input type="email" name="email" value="exemple@mail.com" id="mail" >
+            <label for="mail">e-mail</label>
+            <input type="email" name="email" value="email@adress.com" id="mail" >
             <label for="Name" class="formulaire_contenu1_ecart1">Nom</label>
-            <input type="Name" name="nom" value="Nom">
+            <input type="Name" name="nom" value="NOM">
           </div>
           <div>
             <label for="place">Région</label>
@@ -98,12 +101,17 @@
               <option value:"US" id="place">États-Unis</option>
               <option value:"Other" id="place">autre</option>
             </select>
-            <label class="mdp1" for="mdp">Mot de passe</label>
-            <input type="password" name="motdepasse" value="Mot De Passe">
+            <label for="mdp">Mot de passe</label>
+            <input type="password" name="motdepasse" value="******">
           </div>
           <div>
-              <p>Nombre Article</p>
-             <select class="number">
+            <label for="color">Couleur</label>
+            <input type="checkbox" name="noir" value="noir" id="color">
+            <input type="checkbox" name="blanc" value="blanc" id="color">
+            <input type="checkbox" name="rose" value="rose" id="color">
+            <input type="checkbox" name="violet" value="violet" id="color">
+            <label for="number" class="formulaire_contenu1_ecart2">Nombre</label>
+            <select>
               <option value:"1" id="number">1</option>
               <option value:"1" id="number">2</option>
               <option value:"1" id="number">3</option>
@@ -114,17 +122,21 @@
         <div class="formulaire_bas">
           <div class="formulaire_conditions">
             <input type="checkbox" name="conditions" value="conditions">
-            <label>En cochant, j'accepte de recevoir des courriels d'Oral B et d'autres marques et programmes de confiance de P&G. Cliquez pour lire les <a href="https://www.pg.com/fr_FR/terms_conditions/index.shtml"><span>conditions générales</span> </a> et la <a href="https://www.pg.com/privacy/french/privacy_statement.shtml"><span>politique de confidentialité</span></a> de P&G.</label>
+            <label>En m'inscrivant, j'accepte de recevoir des courriels d'Oral B et d'autres marques et programmes de confiance de P&G. Cliquez pour lire les <a href="#">conditions générales </a> et la <a href="#">politique de confidentialité</a> de P&G.</label>
           </div>
-          <input type="submit" value="Envoyer" class="form_endbutton"></input>
+          <input type="submit" value="Suite   >" class="form_endbutton"></input>
         </div>
       </form>
       <div class="contenu_droite_details">
-        <p>Un QR Code ? Vérifiez vos lots !</p>
-        <form class="spacecode">
-          <label for="Name" class="formulaire_contenu1_ecart1">Entrez le QR code</label>
-          <input type="Name" name="code" value="code">
-        </form>
+        <p>Détails caractéristiques de la Oral-B io</p>
+        <div class="contenu_droite_details_liste">
+          <p> Matière :</p>
+          <p> dimensions :</p>
+          <p> ecran OLED</p>
+          <p> Chargeur 40W</p>
+          <p> poils de brosse..</p>
+          <p> Intelligence IA</p>
+        </div>
       </div>
     </div>
    </main>

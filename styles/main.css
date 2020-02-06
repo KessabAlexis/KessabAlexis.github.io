@@ -22,7 +22,6 @@ body{
   color:#FFF;
   border-bottom: 1.2px #FFF solid;
   width: 100%;
-  position: fixed;
   font-weight:500;
   z-index: 10;
 }
