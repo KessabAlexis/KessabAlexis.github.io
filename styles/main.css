@@ -221,7 +221,7 @@ h4{
   top:100%;
   font-size:0.8em;
 }
-.aaa{
+.scroll_graph1{
   max-width:85%;
   margin-top:3em;
   left:-0.3%;
@@ -240,10 +240,11 @@ h4{
 }
 .toothbrushpart1_infos p{
   padding-top:5em;
-  width: 200px;
-  font-size: 0.8em;
+  width: 245px;
+  font-size: 0.95em;
 }
 .scroll_normaltext_right{
+  padding-top:1%;
 }
 
 .scroll_normaltext_left{
@@ -270,8 +271,6 @@ h4{
   top:24%;
   right: 43.2%;
 }
-.achat_brossette{
-  position: relative;
 }
 .img_tete_brosse{
   max-width:25%;
@@ -317,11 +316,12 @@ h4{
 /*toothbrushpart4*/
 .toothbrushpart4{
   position: relative;
-  padding-bottom:50px;
+  padding-bottom:5%;
+  margin-top: -80px;
 }
 .toothbrushpart4_image{
   margin-left: 68%;
-  position: relative
+  position: relative;
 }
 .toothbrushpart4_brosse{
   width: 30%;
@@ -336,13 +336,14 @@ h4{
   z-index:inherit;
 }
 .graph2{
-  margin-top:4%;
-  max-width:85%;
+  margin-bottom: 0%;
+  max-width:75%;
+  margin-left: 45%;
 }
 .toothbrushpart4_texte{
   width:40%;
   position:absolute;
-  bottom:-160%;
+  bottom:-140%;
   left:25%;
 }
 .toothbrushpart4_infos{
@@ -351,62 +352,99 @@ h4{
   left: 0;
 }
 /*toothbrushpart4*/
+/*Achat brossettes*/
+.brossette{
+  position: relative;
+  padding-bottom:5%;
+}
+/*Achat brossettes*/
+/*Préco_garde*/
+
+.préco_garde{
+  position: relative;
+  padding-bottom: 4%;
+  text-align: center;
+  width: 20%;
+  padding: 1%;
+  background-color: #001323;
+  border-radius: 15px;
+  border: solid 1px white;
+  position: relative;
+}
+
+.préco_garde a{
+  text-decoration: none;
+  color: white;
+}
+ .préco_garde:hover{
+  border: solid 1px #EF6461;
+ }
+
+ .préco_garde:hover a {
+   color: #EF6461;
+ }
+
+
+/*Préco_garde*/
+
 /****************************************
             /MAIN
 ****************************************/
-/****************************************
-          FOOTER
-****************************************/
-footer{
-  background-color: #0259B8;
-padding-bottom: 25px;
-padding-top: 25px;
-display: flex;
-padding-right: ;
-text-align: center;
-}
-.th, td{
-color: white;
-font-size: 12px;
-padding-left: 35px;
-padding-top: 5px;
-text-align: center;
-}
-.td, th{
-  color: white;
-  padding-left: 35px;
-}
-.th, td img{
-  height: 15px;
+/***************************************
+            FOOTER
+  ****************************************/
+  footer{
+  background-color: #001323;
+  padding-top: 25px;
+  padding-bottom: 25px;
   display: flex;
-  margin-right: 10px;
+  padding-right: 280px;
+  text-align: center;
+  margin-top: 80px;
+  }
+  .th, td{
+  color: white;
+  font-size: 12px;
+  padding-left: 35px;
+  padding-top: 5px;
+  text-align: center;
+  }
+  .td, th{
+    color: white;
+    padding-left: 35px;
+  }
+  .th, td img{
+    height: 15px;
+    display: flex;
+    margin-right: 10px;
 
-}
-table img {
-  margin-left: 0;
-  padding-left: 15px;
-}
-.alignImg{
-  margin-left: -90px;
-}
-td:hover{
-color: black;
-cursor:pointer;
-}
-/*********************************
-            NAV
-*********************************/
-.barre{
-  background: black;
-  width: auto;
-  height: 30px;
-}
- .barre h4{
-   color: white;
-   text-align: center;
-   padding-top: 10px;
-   font-size: 12px;
- }
-/****************************************
-            /FOOTER
-****************************************/
+  }
+  table img {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+  .alignImg{
+    margin-left: -90px;
+  }
+  td:hover{
+  color: #EF6461;
+  cursor:pointer;
+  }
+  /*********************************
+              NAV
+  *********************************/
+  .barre{
+    background: rgba(239, 100, 97, 0.73);
+    width: auto;
+    height: 30px;
+  }
+   .barre h4{
+     color: white;
+     text-align: center;
+     padding-top: 10px;
+     font-size: 12px;
+   }
+
+  /****************************************
+            FOOTER
+  ****************************************/
