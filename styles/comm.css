@@ -132,6 +132,8 @@ width: 10em;
 
 .communication p{
   color: white;
+<<<<<<< HEAD
+  opacity:0.9;
   font-size: 1em;
   width: 32em;
   margin-left:-50em;
@@ -164,7 +166,7 @@ display: flex;
 
 
 .code strong{
-  color: #EF6461;
+  color: WHITE;
 }
 
 .containertwi img{
@@ -186,7 +188,7 @@ display: flex;
 }
 
 .qr p{
-color: white;
+color: #bdc3c7;
 padding-top:0em;
 font-size:1em;
 margin-left:1.5em;
@@ -226,7 +228,7 @@ padding-bottom:1em;
 }
 
 .app strong{
-  color:  #EF6461;
+  color:#FFF;
 }
 
 .app img{
@@ -244,11 +246,11 @@ padding-bottom:1em;
 }
 
 .pousse strong{
-  color: #EF6461;
+  color: #FFF;
 }
 
 .app p{
-  color: white;
+  color:#bdc3c7;
   font-size:1.1em;
   margin-top: 1.5em;
   margin-left:3em;
@@ -294,14 +296,14 @@ padding-bottom:1em;
 }
 
 .infotel p{
-color: white;
+color:#bdc3c7;
   font-size: 0.9em;
 padding-top: 1em;
 padding-left:5em;
 }
 
 .infotel strong{
-  color: #EF6461;
+  color:#fff;
   font-size: 1.4em;
   padding-left:1em;
 
