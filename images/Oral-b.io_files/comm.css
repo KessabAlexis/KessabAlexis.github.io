@@ -7,7 +7,6 @@ body{
   width: 100%;
   background:url(../images/backgroundoralbv2.png);
   background-size:100%;
-  overflow-x: hidden;
 }
 /****************************************
             HEADER
@@ -124,7 +123,7 @@ MENU HAMBURGER DEROULANT
 .communication h1{
 color: #EF6461;
 font-size: 1.6em;
-padding-top:4em;
+padding-top: 2.8em;
 margin-left: 4em;
 display: flex;
 width: 10em;
@@ -132,16 +131,13 @@ width: 10em;
 
 .communication p{
   color: white;
-<<<<<<< HEAD
-  opacity:0.9;
   font-size: 1em;
   width: 32em;
   margin-left:-50em;
   text-align: justify;
   padding: 2em ;
-  padding-left:28em;
+  padding-left: 32em;
   margin-top:10em;
-  margin-bottom:10em;
   display: flex;
   outline: #FFF solid 1px;
 }
@@ -151,12 +147,13 @@ width: 10em;
   width:35em;
   display: flex;
   margin-top: 8em;
-  margin-right:10em;
+  margin-right:20em;
   display: flex;
 }
 
 .qr{
 display: flex;
+margin-top:5em;
 }
 
 .code{
@@ -166,14 +163,13 @@ display: flex;
 
 
 .code strong{
-  color: WHITE;
+  color: #EF6461;
 }
 
 .containertwi img{
   max-width: 2.3em;
   position: absolute;
-  margin-left:-7em;
-  margin-top:-0.7em;
+  margin-left:-3em;
 }
 
 .contentRS{
@@ -182,16 +178,16 @@ display: flex;
 }
 .qr h2{
   color: #EF6461;
-  font-weight: 300;
+  font-weight: 300px;
   font-size:2em;
-  padding:1em 1.3em;
+  padding: 0.8em;
 }
 
 .qr p{
-color: #bdc3c7;
-padding-top:0em;
+color: white;
+padding-top:1em;
 font-size:1em;
-margin-left:1.5em;
+padding-left:2em;
 }
 
 .qr img{
@@ -212,7 +208,7 @@ width: 12em;
  width:50em;
  height: 15em;
  margin-right:0em;
- margin-left:55em;
+ margin-left:45em;
  outline: #FFF solid 1px;
  display: flex;
  flex-flow: column;
@@ -221,20 +217,19 @@ width: 12em;
 .lapp h2{
 color:#EF6461;
 font-weight: 300;
-font-size:1.8em;
-margin-left:32em;
-padding-top:5em;
-padding-bottom:1em;
+font-size: 28px;
+margin-left: 790px;
+padding-top: 80px;
+padding-bottom: 30px;
 }
 
 .app strong{
-  color:#FFF;
+  color:  #EF6461;
 }
 
 .app img{
-  margin-top: 2em;
-  margin-left:0em;
-  -webkit-transform: scale(1);
+margin-top: 25px;
+-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
@@ -246,39 +241,48 @@ padding-bottom:1em;
 }
 
 .pousse strong{
-  color: #FFF;
+  color: #EF6461;
+}
+
+.pousse{
+  padding-bottom: 15px;
 }
 
 .app p{
-  color:#bdc3c7;
-  font-size:1.1em;
-  margin-top: 1.5em;
-  margin-left:3em;
+  color: white;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .apps{
-    height: 3.8em;
-    margin-right:2em;
+    height: 60px;
 }
 
 .plays{
-  height:3.8em;
-  margin-right:12em;
+  height: 60px;
+  padding-left: 70px;
 }
 
 .app_images{
   display: flex;
-  padding-top: 1em;
+  padding-top: 20px;
+}
+
+.app h3{
+  margin-top: 150px;
+  margin-left: -900px;
+  color: white;
 }
 
 .telgif img{
-  height: 27.7em;
-  margin-left:30em;
-  margin-top:-20em;
+  height: 440px;
+margin-left: 380px;
+margin-top: -300px;
 }
 
 .infotel{
-  width:25em;
+  width: 300px;
   height: 437px;
   background: red;
   margin-left: 115px;
@@ -288,24 +292,24 @@ padding-bottom:1em;
 }
 
 .infotel img{
-  height: 13em;
-  padding-left:5em;
+  height: 200px;
+  padding-left: 75px;
   position: absolute;
-  bottom:-49em;
+  bottom: -670px;
 
 }
 
 .infotel p{
-color:#bdc3c7;
-  font-size: 0.9em;
-padding-top: 1em;
-padding-left:5em;
+color: white;
+font-size: 14px;
+padding-top: 20px;
+padding-left: 15px;
 }
 
 .infotel strong{
-  color:#fff;
-  font-size: 1.4em;
-  padding-left:1em;
+  color: #EF6461;
+  font-size: 18px;
+  padding-left: 40px;
 
 }
 /*********************************
@@ -377,13 +381,10 @@ padding-left:5em;
   /****************************************
             RESPONSIVE
   ****************************************/
-  @media screen and (max-width:700px){
+  /* @media screen and (max-width:700px){
     body{
       width:300px;
     }
     .app{
       display:none;
-    }
-    p{
-      font-size:0.1em;
-    }
+    } */
