@@ -1,7 +1,6 @@
 *{
   margin: 0 auto;
-}
-header{
+  padding: 0;
   font-family: 'Neutraface2Text', sans-serif;
 }
 body{
@@ -20,19 +19,20 @@ body{
 .header{
   height: 57px;
   color:#FFF;
-  border-bottom: 0.1em #FFF solid;
-  width: 100%;
-  font-weight:500;
-  border-bottom: 0.2em #FFF solid;
+  border-bottom:0.1em #FFF solid;
   width: 100%;
   font-weight: bold;
   z-index: 1;
+  position: fixed;
+  font-weight:500;
+  z-index: 10;
 }
 .header_div{
   padding-top:0.5em;
   display:flex;
   justify-content:space-between;
-  align-items: center;
+  margin-left:5%;
+  margin-right:25%
 }
 .header_logo{
   width:7.5em;
@@ -46,8 +46,11 @@ body{
   margin-left: 1em;
   padding: 1em;
   font-size: 88%;
-  font-weight: 300px;
+  font-weight: 300;
   border: 0.5px #FFF solid;
+  background: #FFF;
+  box-shadow: 0 -20px 0px #fff ;
+
 }
 .header_menu{
   display: flex;
@@ -58,43 +61,39 @@ body{
 }
 .header_menu_element:hover {
   border-bottom: 1.5px #FFF solid;
+box-shadow: 0 2px 0 #fff;
 }
 .header_droite{
   display: flex;
   margin: 0;
   padding: 2px;
+  padding:2px;
+  justify-content: space-between;
+
 }
 .header_menu_lien{
   text-decoration: none;
   color: #FFF;
-  margin-left: 6px;
-  margin-right: 6px;
 }
 .header_bouton:hover{
   background: #FFF;
-  box-shadow: 0 12px #fff,
-   0 -20px #fff;
-
   color:#0257B8;
   transition: linear 0.68s;
   height: 35px;
+  box-shadow: 0 12px #fff,
+   0 -20px #fff;
+
 }
 /***********************
 MENU HAMBURGER DEROULANT
 *************************/
-
-.header_nav2{
-  display: none;
-}
-.header_nav2_sousmenu{
-  display: none;}
 .header_nav2{
   display: none;
 }
 .header_nav2_sousmenu{
   display: none;
 }
-.menuhamburger:hover .header_nav2_sousmenu,.header_nav2_sousmenu:hover{
+.menuhamburger:hover .header_nav2_sousmenu{
   position:absolute;
   left:60%;
   top:100%;
@@ -114,24 +113,22 @@ MENU HAMBURGER DEROULANT
 }
 .header_nav2_onglet{
   color:#FFF;
-  background: none;
-  box-shadow: 0 1px 0px #fff ;
+  background: #0259B8;
 }
 .header_nav2_onglet a{
   color: #FFF;
   text-decoration: none;
 }
+/***********************
+/MENU HAMBURGER DEROULANT
+*************************/
 /*********************************
-
         MAIN
-
 *********************************/
-
 .communication{
   background-color:#001323;
   display: flex;
 }
-
 .communication h1{
 color: #EF6461;
 font-size: 1.6em;
@@ -155,7 +152,6 @@ width: 10em;
   display: flex;
   outline: #FFF solid 1px;
 }
-
 .communication img{
   height:16em;
   width:35em;
@@ -164,11 +160,9 @@ width: 10em;
   margin-right:10em;
   display: flex;
 }
-
 .qr{
 display: flex;
 }
-
 .code{
     background-color:rgba(0, 19, 35, 0.64);
     border-radius:20px;
@@ -178,14 +172,12 @@ display: flex;
 .code strong{
   color: WHITE;
 }
-
 .containertwi img{
   max-width: 2.3em;
   position: absolute;
   margin-left:-7em;
   margin-top:-0.7em;
 }
-
 .contentRS{
   width:auto;
   display: flex;
@@ -196,14 +188,12 @@ display: flex;
   font-size:2em;
   padding:1em 1.3em;
 }
-
 .qr p{
 color: #bdc3c7;
 padding-top:0em;
 font-size:1em;
 margin-left:1.5em;
 }
-
 .qr img{
 width: 12em;
 -webkit-transform: scale(1);
@@ -211,12 +201,10 @@ width: 12em;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-
 .qr img:hover{
   -webkit-transform: scale(1.3);
   	transform: scale(1.3);
 }
-
 .app{
  background-color:rgba(0, 19, 35, 1);
  width:50em;
@@ -227,7 +215,6 @@ width: 12em;
  display: flex;
  flex-flow: column;
 }
-
 .lapp h2{
 color:#EF6461;
 font-weight: 300;
@@ -236,11 +223,9 @@ margin-left:32em;
 padding-top:5em;
 padding-bottom:1em;
 }
-
 .app strong{
   color:#FFF;
 }
-
 .app img{
   margin-top: 2em;
   margin-left:0em;
@@ -249,44 +234,36 @@ padding-bottom:1em;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-
 .app img:hover{
   -webkit-transform: scale(1.3);
   	transform: scale(1.3);
 }
-
 .pousse strong{
   color: #FFF;
 }
-
 .app p{
   color:#bdc3c7;
   font-size:1.1em;
   margin-top: 1.5em;
   margin-left:3em;
 }
-
 .apps{
     height: 3.8em;
     margin-right:2em;
 }
-
 .plays{
   height:3.8em;
   margin-right:12em;
 }
-
 .app_images{
   display: flex;
   padding-top: 1em;
 }
-
 .telgif img{
   height: 27.7em;
   margin-left:30em;
   margin-top:-20em;
 }
-
 .infotel{
   width:25em;
   height: 437px;
@@ -296,35 +273,26 @@ padding-bottom:1em;
   background-color:rgba(255, 255, 255, 0.11);
   border-radius: 20px;
 }
-
 .infotel img{
   height: 13em;
   padding-left:5em;
   position: absolute;
   bottom:-49em;
-
 }
-
 .infotel p{
 color:#bdc3c7;
   font-size: 0.9em;
 padding-top: 1em;
 padding-left:5em;
 }
-
 .infotel strong{
   color:#fff;
   font-size: 1.4em;
   padding-left:1em;
-
 }
 /*********************************
-
           /MAIN
-
 *********************************/
-
-
 /***************************************
             FOOTER
   ****************************************/
@@ -352,7 +320,6 @@ padding-left:5em;
     height: 15px;
     display: flex;
     margin-right: 10px;
-
   }
   table img {
     margin-left: 0;
@@ -365,7 +332,6 @@ padding-left:5em;
   color: #EF6461;
   cursor:pointer;
   }
-
   /*********************************
               NAV
   *********************************/
@@ -380,23 +346,30 @@ padding-left:5em;
      padding-top: 10px;
      font-size: 12px;
    }
-
   /****************************************
             FOOTER
   ****************************************/
-
   /****************************************
             RESPONSIVE
   ****************************************/
-  @media screen and (max-width:700px){
-    body{
-      width:300px;
+  @media screen and (max-width:900px){
+    header{
+      width:auto;
+    }
+    .container{
+      width:auto:
     }
     .app{
       display:none;
     }
-    p{
-      font-size:0.1em;
+    .lapp{
+      display: none;
+    }
+    img:not(.spe_responsive){
+      display:none;
+    }
+    .communication img{
+      display:none;
     }
   .infotel img:not(.spe_responsive){
     display:none;
@@ -408,15 +381,16 @@ padding-left:5em;
   }
   .communication{
     background:none;
-    margin-bottom:none; /* tentative de suppression du margin-bottom visible sur l'inspecteur.*/
+    margin-bottom:-3em; /* tentative de suppression du margin-bottom visible sur l'inspecteur.*/
   }
   .communication h1{
     font-size:1em;
+    margin-left:2.8em;
   }
   .communication p{
     font-size:0.5em;
     outline:inherit;
-    padding-left:35%;
+    padding-left:30%;
   }
   .qr h2{
     font-size:1em;
@@ -436,16 +410,5 @@ padding-left:5em;
   .infotel p{
     font-size:0.5em;
   }
-  footer{
-    display:none;
-  }
-  .barre{
-    display:none;
-  }
+
 }
-    p{
-      font-size:0.1em;
-    }
-    p{
-      font-size:0.1em;
-    }
