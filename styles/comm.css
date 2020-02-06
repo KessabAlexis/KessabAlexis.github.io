@@ -391,10 +391,36 @@ padding-left:5em;
       width:auto:
     }
     .app{
-      display:none;
+      padding: 0;
+      margin:0;
+      width:13em;
+      height:auto;
     }
-    .lapp{
-      display: none;
+    .app p{
+      font-size:0.5em;
+    }
+    .app .apps{
+      position:absolute;
+      left:70%;
+      bottom:26.5%;
+      margin:0;
+      padding:0;
+      width:4em;
+      height:auto;
+    }
+    .app .plays{
+      position:absolute;
+      left:70%;
+      bottom:20.5%;
+      margin:0;
+      padding:0;
+      width:4em;
+      height:auto;
+    }
+    .lapp h2{
+      margin:2.5em 0 0 1em;
+      padding:0em;
+      font-size:0.9em;
     }
     img:not(.spe_responsive){
       display:none;
@@ -412,7 +438,7 @@ padding-left:5em;
   }
   .communication{
     background:none;
-    margin-bottom:none; /* tentative de suppression du margin-bottom visible sur l'inspecteur.*/
+    margin-bottom:0; /* tentative de suppression du margin-bottom visible sur l'inspecteur.*/
   }
   .communication h1{
     font-size:1em;
@@ -431,7 +457,7 @@ padding-left:5em;
   .infotel{
     height:auto;
     width:auto;
-    margin:2em 5em 0 1em;
+    margin:1em 5em 0 1em;
 
   }
   .infotel h2{
