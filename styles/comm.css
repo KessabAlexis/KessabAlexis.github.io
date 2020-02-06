@@ -77,6 +77,8 @@ box-shadow: 0 2px 0 #fff;
 }
 .header_bouton:hover{
   background: #FFF;
+  box-shadow: 0 12px #fff,
+   0 -20px #fff;
   color:#0257B8;
   transition: linear 0.68s;
   height: 35px;
@@ -412,3 +414,6 @@ padding-left:5em;
   }
 
 }
+    p{
+      font-size:0.1em;
+    }
