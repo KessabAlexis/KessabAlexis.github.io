@@ -221,7 +221,7 @@ h4{
   top:100%;
   font-size:0.8em;
 }
-.aaa{
+.scroll_graph1{
   max-width:85%;
   margin-top:3em;
   left:-0.3%;
@@ -244,6 +244,7 @@ h4{
   font-size: 0.8em;
 }
 .scroll_normaltext_right{
+  padding-top:1%;
 }
 
 .scroll_normaltext_left{
@@ -270,8 +271,6 @@ h4{
   top:24%;
   right: 43.2%;
 }
-.achat_brossette{
-  position: relative;
 }
 .img_tete_brosse{
   max-width:25%;
@@ -317,7 +316,7 @@ h4{
 /*toothbrushpart4*/
 .toothbrushpart4{
   position: relative;
-  padding-bottom:50px;
+  padding-bottom:5%;
 }
 .toothbrushpart4_image{
   margin-left: 68%;
@@ -351,6 +350,27 @@ h4{
   left: 0;
 }
 /*toothbrushpart4*/
+/*Achat brossettes*/
+.brossette{
+  position: relative;
+  padding-bottom:5%;
+}
+/*Achat brossettes*/
+/*Préco_garde*/
+.préco_garde{
+  position: relative;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.préco_garde span{
+  font-weight: 500;
+}
+.préco_garde span:hover{
+  cursor:pointer;
+  background:black;
+}
+/*Préco_garde*/
+
 /****************************************
             /MAIN
 ****************************************/

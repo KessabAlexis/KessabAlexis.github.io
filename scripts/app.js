@@ -60,11 +60,11 @@ sr.reveal('.scroll_brosse_charg',{
   origin:'right',
 });
 
-sr.reveal('.aaa',{
+sr.reveal('.scroll_graph1',{
   reset:true,
   opacity:0,
   duration:2500,
-  distance:'500px',
+  distance:'300px',
   origin:'left',
 });
 
