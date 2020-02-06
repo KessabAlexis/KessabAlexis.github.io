@@ -71,6 +71,9 @@
   .toothbrushpart4{
     margin-top: 30%;
   }
+  .slides1{
+    width: 40%;
+  }
 
 }
 @media screen and (max-width:800px){
