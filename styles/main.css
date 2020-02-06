@@ -50,7 +50,6 @@ body{
   border: 0.5px #FFF solid;
   background: #FFF;
   box-shadow: 0 -20px 0px #fff ;
-
 }
 .header_menu{
   display: flex;
@@ -72,10 +71,12 @@ box-shadow: 0 2px 0 #fff;
 .header_menu_lien{
   text-decoration: none;
   color: #FFF;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 .header_bouton:hover{
   background: #FFF;
-  box-shadow: 0 12px #fff,
+  box-shadow: 0 7px #fff,
    0 -20px #fff;
 
 }
@@ -253,7 +254,7 @@ h4{
 /*/toothbrushpart1*/
 /*toothbrushpart2*/
 .toothbrushpart2{
-  margin-top: 5%;
+  margin-top: 2%;
   position: relative;
 }
 .toothbrushpart2_image{
@@ -315,9 +316,9 @@ h4{
 /* /toothbrushpart3*/
 /*toothbrushpart4*/
 .toothbrushpart4{
-  position: relative;
   padding-bottom:5%;
-  margin-top: -80px;
+  margin-top: ;
+  position: relative;
 }
 .toothbrushpart4_image{
   margin-left: 68%;
@@ -336,14 +337,18 @@ h4{
   z-index:inherit;
 }
 .graph2{
-  margin-bottom: 0%;
-  max-width:75%;
-  margin-left: 45%;
+  margin-bottom: 0;
+  width:40%;
+}
+.graph2_place{
+  position: absolute;
+  top:160%;
+
 }
 .toothbrushpart4_texte{
   width:40%;
   position:absolute;
-  bottom:-140%;
+  bottom:60%;
   left:25%;
 }
 .toothbrushpart4_infos{
@@ -360,7 +365,8 @@ h4{
 /*Achat brossettes*/
 /*Préco_garde*/
 
-.préco_garde{
+.preco_garde{
+
   position: relative;
   padding-bottom: 4%;
   text-align: center;
@@ -372,11 +378,11 @@ h4{
   position: relative;
 }
 
-.préco_garde a{
+.preco_garde a{
   text-decoration: none;
   color: white;
 }
- .préco_garde:hover{
+ .preco_garde:hover{
   border: solid 1px #EF6461;
  }
 
@@ -395,10 +401,10 @@ h4{
   ****************************************/
   footer{
   background-color: #001323;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 3%;
+  padding-bottom: 3%;
   display: flex;
-  padding-right: 280px;
+  padding-right: 25%;
   text-align: center;
   margin-top: 80px;
   }

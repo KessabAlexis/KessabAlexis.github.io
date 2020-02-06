@@ -11,7 +11,29 @@
   .testgraphique{
     width: 80%;
   }
+  .toothbrushpart2{
+    margin-top: 14%;
+    position: relative;
+  }
+  .toothbrushpart3{
+    margin-top: 12%;
+  }
+  .toothbrushpart4{
+    margin-top: 20%;
+  }
+  .graph2_place{
+    position: absolute;
+    top:120%;
+  }
+  main{
+    font-size: calc(80%);
+  }
+  .preco_garde{
+    margin-top: 20px;
+  }
+
 }
+
 @media screen and (max-width:660px){
   .container{
     width: 100%;
@@ -37,5 +59,22 @@
   }
   .menucotédroit{
     display: none;
+
+  }
+  .toothbrushpart2{
+    margin-top: 60%;
+    position: relative;
+  }
+  .toothbrushpart3{
+    margin-top: 12%;
+  }
+  .toothbrushpart4{
+    margin-top: 30%;
+  }
+
+}
+@media screen and (max-width:800px){
+  .toothbrushpart4_texte{
+    po
   }
 }
