@@ -332,17 +332,17 @@ input:hover{
   margin-top:20px;
   font-size: 0.72em;
 }
-  /***************************************
+/***************************************
             FOOTER
   ****************************************/
   footer{
-    background-color: #001323;
-  padding-bottom: 25px;
+  background-color: #001323;
   padding-top: 25px;
+  padding-bottom: 25px;
   display: flex;
   padding-right: 280px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 80px;
   }
   .th, td{
   color: white;
@@ -359,6 +359,7 @@ input:hover{
     height: 15px;
     display: flex;
     margin-right: 10px;
+
   }
   table img {
     margin-left: 0;
@@ -368,14 +369,14 @@ input:hover{
     margin-left: -90px;
   }
   td:hover{
-  color: #087bb4;
+  color: #EF6461;
   cursor:pointer;
   }
   /*********************************
               NAV
   *********************************/
   .barre{
-    background: #087bb4;
+    background: rgba(239, 100, 97, 0.73);
     width: auto;
     height: 30px;
   }
@@ -385,6 +386,7 @@ input:hover{
      padding-top: 10px;
      font-size: 12px;
    }
+
   /****************************************
             FOOTER
   ****************************************/
