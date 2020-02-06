@@ -33,7 +33,6 @@
   }
 
 }
-
 @media screen and (max-width:660px){
   .container{
     width: 100%;
@@ -74,10 +73,9 @@
   .slides1{
     width: 40%;
   }
+  img{
+    width: 300%;
 
-}
-@media screen and (max-width:800px){
-  .toothbrushpart4_texte{
-    po
   }
+
 }

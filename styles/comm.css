@@ -20,6 +20,9 @@ body{
 .header{
   height: 57px;
   color:#FFF;
+  border-bottom: 0.1em #FFF solid;
+  width: 100%;
+  font-weight:500;
   border-bottom: 0.2em #FFF solid;
   width: 100%;
   font-weight: bold;
@@ -45,9 +48,6 @@ body{
   font-size: 88%;
   font-weight: 300px;
   border: 0.5px #FFF solid;
-  background: #FFF;
-  box-shadow: 0 -20px 0px #fff ;
-
 }
 .header_menu{
   display: flex;
@@ -72,10 +72,9 @@ body{
 }
 .header_bouton:hover{
   background: #FFF;
-<<<<<<< HEAD
   box-shadow: 0 12px #fff,
    0 -20px #fff;
-=======
+
   color:#0257B8;
   transition: linear 0.68s;
   height: 35px;
@@ -395,6 +394,57 @@ padding-left:5em;
     }
     .app{
       display:none;
+    }
+    p{
+      font-size:0.1em;
+    }
+  .infotel img:not(.spe_responsive){
+    display:none;
+  }
+  .spe_responsive{
+    position:absolute;
+    max-width:5em;
+    left:70%;
+  }
+  .communication{
+    background:none;
+    margin-bottom:none; /* tentative de suppression du margin-bottom visible sur l'inspecteur.*/
+  }
+  .communication h1{
+    font-size:1em;
+  }
+  .communication p{
+    font-size:0.5em;
+    outline:inherit;
+    padding-left:35%;
+  }
+  .qr h2{
+    font-size:1em;
+  }
+  .qr p{
+    font-size:0.5em;
+  }
+  .infotel{
+    height:auto;
+    width:auto;
+    margin:2em 5em 0 1em;
+
+  }
+  .infotel h2{
+    font-size:1em;
+  }
+  .infotel p{
+    font-size:0.5em;
+  }
+  footer{
+    display:none;
+  }
+  .barre{
+    display:none;
+  }
+}
+    p{
+      font-size:0.1em;
     }
     p{
       font-size:0.1em;
