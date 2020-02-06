@@ -400,28 +400,21 @@ h4{
             FOOTER
   ****************************************/
   footer{
-  background-color: #001323;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  display: flex;
-  padding-right: 25%;
-  text-align: center;
-  margin-top: 80px;
+    margin-top:50px;
+    color:#FFF;
+    background: black;
   }
-  .th, td{
-  color: white;
-  font-size: 12px;
-  padding-left: 35px;
-  padding-top: 5px;
-  text-align: center;
-  }
-  .td, th{
-    color: white;
-    padding-left: 35px;
-  }
-  .th, td img{
+thead{
+  padding-bottom: 50px;
+}
+td{
+  padding: 3px;
+  font-size: 0.7em;
+  width:100px;
+}
+
+td img{
     height: 15px;
-    display: flex;
     margin-right: 10px;
 
   }
@@ -429,12 +422,13 @@ h4{
     margin-left: 0;
     padding-left: 15px;
   }
-  .alignImg{
-    margin-left: -90px;
-  }
+
   td:hover{
   color: #EF6461;
   cursor:pointer;
+  }
+  .alignImg{
+    position: absolute;
   }
   /*********************************
               NAV
