@@ -177,18 +177,14 @@ main{
   margin-top: 10px;
 }
 .contenu_droite_formulaire div{
-  margin-top:10px;
+  margin-top:30px;
 }
 .form_endbutton {
   color:#FFF;
-  margin-top: 180px;
+  margin-top: 113px;
   height: 40px;
   width: 49%;
   background: black;
-}
-.form_endbutton:hover{
-
-
 }
 .logotopright{
   position: absolute;
@@ -198,6 +194,9 @@ main{
   opacity: 0.5;
   margin-right: 2%;
 
+}
+.droite_formulaire_block{
+  display: flex;
 }
 
 
