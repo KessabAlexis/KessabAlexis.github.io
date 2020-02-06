@@ -63,7 +63,15 @@ sr.reveal('.scroll_brosse_charg',{
 sr.reveal('.aaa',{
   reset:true,
   opacity:0,
-  duration:500,
-  distance:'300px',
+  duration:2500,
+  distance:'500px',
+  origin:'left',
+});
+
+sr.reveal('.toothbrushpart1_infos p',{
+  reset:true,
+  opacity:0,
+  duration:3000,
+  distance:'500px',
   origin:'right',
 });
