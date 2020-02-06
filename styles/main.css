@@ -367,7 +367,8 @@ h4{
 }
 .préco_garde span:hover{
   cursor:pointer;
-  background:black;
+  background:#fff;
+  color:black;
 }
 /*Préco_garde*/
 
