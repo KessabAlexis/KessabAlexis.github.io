@@ -128,6 +128,7 @@ MENU HAMBURGER DEROULANT
         MAIN
 
 *********************************/
+
 .communication{
   background-color:#001323;
   display: flex;
@@ -337,7 +338,10 @@ padding-left:5em;
   text-align: center;
   margin-top: 80px;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 5f035d6... :bug: Rétablissement des bugs
   .th, td{
   color: white;
   font-size: 12px;
@@ -345,7 +349,6 @@ padding-left:5em;
   padding-top: 5px;
   text-align: center;
   }
-
   .td, th{
     color: white;
     padding-left: 35px;

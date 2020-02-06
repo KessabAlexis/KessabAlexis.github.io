@@ -134,17 +134,15 @@ main{
   width:87%;
   margin:0;
   margin-left: 1%;
-  background: rgba(0, 19, 35, 0.91);
+  background: black;
   padding: 19px;
   position: relative;
   margin-right: 0;
 }
-
 .slider_image1{
   width: 80%;
   height: auto;
 }
-
 .slider_flechedroite{
   width: 4.3%;
   opacity: 0.5;
@@ -152,7 +150,6 @@ main{
   top:43%;
   right: 9%;
 }
-
 .slider_flechegauche{
   width: 4.3%;
   opacity: 0.5;
@@ -160,63 +157,36 @@ main{
   top:43%;
   left: 9%;
 }
-
 .contenu_sur{
   color:#FFF;
   position: absolute;
-  top:-12px;;
+  top:1%;
   left: 45%;
-  background: rgba(0, 19, 35, 0.95);
-  border-radius: 10px;
-  padding: 20px;
-  }
-
-
+}
 .contenu_sur_image1{
   width: 37%;
 }
-
 .contenu_sur_image2{
   width: 15.3%;
 }
-
-.mdp1{
-padding-left: 5px;
-}
-
-.number{
-  display: flex;
-  margin-top: -20px;
-  margin-left: 113px;
-}
-
 .contenu_sur_texte{
   margin-top: 10px;
   margin-left: 13px;
   font-size: 0.9em;
 }
-
-.contenu_sur_texte span{
-  color: #EF6461;
-}
-
 .contenu_droite{
   color:#FFF;
-  margin-top: 13%;
+  margin-top: 15%;
   margin-right:20%;
 }
-
 .contenu_droite_texte{
   padding-bottom: 10px;
   box-shadow: 0 0.5px 0px #fff ;
 }
-
 .contenu_droite_titre{
   font-size: 2.2em;
   margin-top: 9px;
-  color: #EF6461;
 }
-
 .contenu_droite_formulaire{
   margin-top: 10px;
   width: 320px;
@@ -225,9 +195,10 @@ input:hover{
   background:black;
   color:#FFF;
 }
-
 .contenu_droite_formulaire div{
+
 }
+
 
 .form_endbutton {
   color:#FFF;
@@ -238,30 +209,12 @@ input:hover{
   margin-top:9%;
 }
 
-.form_endbutton:hover{
- background-color: #EF6461;
-}
-
 .droite_formulaire_block{
   display: flex;
 }
 .formulaire_conditions{
   font-size: 0.55em;
   margin-bottom: 4%;
-  color: #bdc3c7;
-}
-
-.formulaire_bas{
-  padding-top: 0px;
-}
-.formulaire_bas span{
-text-decoration: none;
-color: white;
-}
-
-.formulaire_bas a{
-text-decoration: none;
-color: white;
 }
 .contenu_droite_formulaire caption{
   margin-bottom: 4%;
@@ -272,30 +225,19 @@ color: white;
     margin:20px;
     margin-left: 0;
 }
-
 .formulaire_bas{
   margin-top: 10%;
-  padding-top: 15px;
 }
-
 .formulaire_contenu1_ecart1{
-  margin-left: 15px;
-
+  margin-left: 25px;
 }
-
-.spacecode{
-padding-top: 20px;
-color : #bdc3c7;
-}
-
 .formulaire_contenu1_ecart2{
   margin-left: 49px;
-
 }
-
 .contenudroite_reseaux_container{
   display: flex;
 }
+
 
 .contenudroite_reseaux{
   margin-top: 12%;
@@ -306,7 +248,6 @@ color : #bdc3c7;
   color:#FFF;
   position: relative;
 }
-
 .reseaux_droite{
   width: 80%;
   font-size:0.82em;
@@ -314,78 +255,57 @@ color : #bdc3c7;
   top:0;
   left:50%;
   overflow: hidden;
-  text-decoration: none;
 }
-
 .reseaux_droite p{
   width: 400px;
-  color :#bdc3c7;
 }
-
-.reseaux_droite a{
-font-size: 13px;
+.contenudroite_reseaux p{
+  font-size:0.82em;
 }
-
-.reseaux_droite_lien{
-  color: white;
-  font-size: 1.7em;
-}
-
-.reseaux_droite_lien:hover{
-  background:#EF6461;
-}
-
 .contenu_droite_reseaux_site{
   display: flex;
   align-items: center;
   margin-top: 16px;
 }
-
 .contenu_droite_reseaux_site img{
   width: 17%;
-  margin-right: 520px;
+  margin-right: 490px;
 }
-
 .contenu_droite_reseaux_site p{
   margin-right: 0;
   margin-left: 0;
-  color: white;
 }
-
 .contenu_droite_reseaux_logos{
 
-  margin-top: 10px;
-}
 
+  display: flex;
+
+}
 .contenu_droite_reseaux_logos img{
   width: 37px;
   margin: 10px;
 }
-
 .contenudroite_reseaux h3{
+
   margin-bottom: 18px;
 }
-
 .contenudroite_reseaux p{
   width: 44%;
   margin-left: 0;
 }
-
 .reseaux_image_event{
+
   margin-top: 10px;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
-
 .contenu_logo_site_container{
   display: flex;
 }
-
 .reseaux_image_event img{
   width: 42%;
 }
-
 .image_event_textsur{
   width: 100px;
   margin-right: 3px;
@@ -396,26 +316,32 @@ font-size: 13px;
   color:black;
   font-weight: bolder;
 }
-
-
-
+.reseaux_droite a{
+  text-decoration:none;
+  color:#FFF;
+  margin-top: 30px;
+  font-size: 0.7em;
+}
+.reseaux_droite a:hover{
+  color:black;
+  position: absolute;
+  top:30%;
+  left:30%;
+}
 .contenu_droite_details{
   margin-top:7px;
   background: #001323;
 }
-
 .contenu_droite_details>p{
   padding-top: 10px;
   font-size: 1.07em;
 }
-
 .contenu_droite_details_liste{
   color:grey;
   opacity: 0.8;
   margin-top:20px;
   font-size: 0.72em;
 }
-
 /***************************************
             FOOTER
   ****************************************/
