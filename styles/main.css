@@ -130,34 +130,34 @@ MENU HAMBURGER DEROULANT
             MAIN
 ****************************************/
 /* Menu droite */
-.menucotédroit{
+.menucotedroit{
   position:fixed;
   pointer-events:all;
   bottom: 60%;
   right: 0;
   z-index: 10;
 }
-.menucotédroit_contenu{
+.menucotedroit_contenu{
   display: flex;
   flex-flow: column wrap;
   list-style: none;
   opacity:0.6;
 }
-.menucotédroit_contenu_item {
+.menucotedroit_contenu_item {
   width: 100%;
   border-bottom: 0.5px #FFF solid;
   padding-right: 1em;
 }
 
-.menucotédroit_contenu_item:hover{
+.menucotedroit_contenu_item:hover{
   font-weight: 500;
   color:rgba(0, 0, 0, 1);
 }
 
-.menucotédroit_contenu_item:nth-of-type(1){
+.menucotedroit_contenu_item:nth-of-type(1){
   border-top: 0.5px #FFF solid;
 }
-.menucotédroit_contenu_item a{
+.menucotedroit_contenu_item a{
   text-decoration: none;
   color:#FFF;
   padding-left: 0;
@@ -341,7 +341,6 @@ h4{
 .graph2_place{
   position: absolute;
   top:160%;
-
 }
 .toothbrushpart4_texte{
   width:40%;
@@ -355,12 +354,7 @@ h4{
   left: 0;
 }
 /*toothbrushpart4*/
-/*Achat brossettes*/
-.brossette{
-  position: relative;
-  padding-bottom:5%;
-}
-/*Achat brossettes*/
+
 /*Préco_garde*/
 
 .preco_garde{
@@ -397,45 +391,44 @@ h4{
 /***************************************
             FOOTER
   ****************************************/
-  footer{
-    margin-top:50px;
-    color:#FFF;
-    background: black;
-  }
-thead{
-  padding-bottom: 50px;
-}
-td{
-  padding: 3px;
-  font-size: 0.7em;
-  width:100px;
-}
 
-td img{
-    height: 15px;
-    margin-right: 10px;
+    footer{
+    background-color: #001323;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    padding-right: 280px;
+    text-align: center;
+    margin-top: 80px;
+    }
+    .th, td{
+    color: white;
+    font-size: 12px;
+    padding-left: 35px;
+    padding-top: 5px;
+    text-align: center;
+    }
+    .td, th{
+      color: white;
+      padding-left: 35px;
+    }
+    .th, td img{
+      height: 15px;
+      display: flex;
+      margin-right: 10px;
 
-  }
-  table img {
-    margin-left: 0;
-    padding-left: 15px;
-  }
-tbody{
-  position: relative;
-}
-  td:hover{
-  color: #EF6461;
-  cursor:pointer;
-  }
-
-  .alignImg{
-    position: absolute;
-    left:790px;
-  }
-  .alignImg2{
-    position: absolute;
-    left: 740px;
-  }
+    }
+    table img {
+      margin-left: 0;
+      padding-left: 15px;
+    }
+    .alignImg{
+      margin-left: -90px;
+    }
+    td:hover{
+    color: #EF6461;
+    cursor:pointer;
+    }
   /*********************************
               NAV
   *********************************/
