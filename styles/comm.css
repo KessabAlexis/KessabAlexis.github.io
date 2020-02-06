@@ -20,9 +20,15 @@ body{
 .header{
   height: 57px;
   color:#FFF;
+<<<<<<< HEAD
+  border-bottom: 0.1em #FFF solid;
+  width: 100%;
+  font-weight:500;
+=======
   border-bottom: 0.2em #FFF solid;
   width: 100%;
   font-weight: bold;
+>>>>>>> parent of d45a28a... responsive comm :iphone:
   z-index: 1;
 }
 .header_div{
@@ -45,9 +51,6 @@ body{
   font-size: 88%;
   font-weight: 300px;
   border: 0.5px #FFF solid;
-  background: #FFF;
-  box-shadow: 0 -20px 0px #fff ;
-
 }
 .header_menu{
   display: flex;
@@ -73,9 +76,12 @@ body{
 .header_bouton:hover{
   background: #FFF;
 <<<<<<< HEAD
+<<<<<<< HEAD
   box-shadow: 0 12px #fff,
    0 -20px #fff;
 =======
+=======
+>>>>>>> parent of d45a28a... responsive comm :iphone:
   color:#0257B8;
   transition: linear 0.68s;
   height: 35px;
@@ -144,6 +150,7 @@ width: 10em;
 
 .communication p{
   color: white;
+<<<<<<< HEAD
   opacity:0.9;
   font-size: 1em;
   width: 32em;
@@ -394,8 +401,71 @@ padding-left:5em;
       width:300px;
     }
     .app{
+<<<<<<< HEAD
+=======
+      display:none;
+    }
+<<<<<<< HEAD
+    .lapp{
+      display: none;
+    }
+    img:not(.spe_responsive){
+>>>>>>> parent of ef03e2c... Fin responsive comm :iphone:
       display:none;
     }
     p{
       font-size:0.1em;
     }
+<<<<<<< HEAD
+=======
+  .infotel img:not(.spe_responsive){
+    display:none;
+  }
+  .spe_responsive{
+    position:absolute;
+    max-width:5em;
+    left:70%;
+  }
+  .communication{
+    background:none;
+    margin-bottom:none; /* tentative de suppression du margin-bottom visible sur l'inspecteur.*/
+  }
+  .communication h1{
+    font-size:1em;
+  }
+  .communication p{
+    font-size:0.5em;
+    outline:inherit;
+    padding-left:35%;
+  }
+  .qr h2{
+    font-size:1em;
+  }
+  .qr p{
+    font-size:0.5em;
+  }
+  .infotel{
+    height:auto;
+    width:auto;
+    margin:2em 5em 0 1em;
+
+  }
+  .infotel h2{
+    font-size:1em;
+  }
+  .infotel p{
+    font-size:0.5em;
+  }
+  footer{
+    display:none;
+  }
+  .barre{
+    display:none;
+  }
+}
+>>>>>>> parent of ef03e2c... Fin responsive comm :iphone:
+=======
+    p{
+      font-size:0.1em;
+    }
+>>>>>>> parent of d45a28a... responsive comm :iphone:
