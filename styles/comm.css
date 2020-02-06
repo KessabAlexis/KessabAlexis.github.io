@@ -1,7 +1,10 @@
 *{
   margin: 0 auto;
-  padding: 0;
+}
+
+html{
   font-family: 'Neutraface2Text', sans-serif;
+
 }
 body{
   width: 100%;
@@ -19,19 +22,22 @@ body{
 .header{
   height: 57px;
   color:#FFF;
-  border-bottom: 0.2em #FFF solid;
+  border-bottom: 1.2px #FFF solid;
   width: 100%;
-  font-weight: bold;
-  z-index: 1;
+  position: fixed;
+  font-weight:500;
+  z-index: 10;
 }
 .header_div{
-  padding-top:0.5em;
+  padding-top:7px;
   display:flex;
   justify-content:space-between;
   align-items: center;
+  margin-left:5%;
+  margin-right:25%
 }
 .header_logo{
-  width:7.5em;
+  width: 124px;
   margin: 0;
 }
 .header_bouton{
@@ -39,11 +45,14 @@ body{
   color: black;
   text-decoration: none;
   margin: 0;
-  margin-left: 1em;
-  padding: 1em;
+  margin-left: 2px;
+  padding: 6px;
   font-size: 88%;
-  font-weight: 300px;
+  font-weight: 300;
   border: 0.5px #FFF solid;
+  background: #FFF;
+  box-shadow: 0 -20px 0px #fff ;
+
 }
 .header_menu{
   display: flex;
@@ -53,12 +62,14 @@ body{
   padding: 6px;
 }
 .header_menu_element:hover {
-  border-bottom: 1.5px #FFF solid;
+box-shadow: 0 2px 0 #fff;
 }
 .header_droite{
   display: flex;
   margin: 0;
-  padding: 2px;
+  padding:2px;
+  justify-content: space-between;
+
 }
 .header_menu_lien{
   text-decoration: none;
@@ -66,9 +77,9 @@ body{
 }
 .header_bouton:hover{
   background: #FFF;
-  color:#0257B8;
-  transition: linear 0.68s;
-  height: 35px;
+  box-shadow: 0 12px #fff,
+   0 -20px #fff;
+
 }
 /***********************
 MENU HAMBURGER DEROULANT
@@ -131,7 +142,6 @@ width: 10em;
 
 .communication p{
   color: white;
-<<<<<<< HEAD
   opacity:0.9;
   font-size: 1em;
   width: 32em;
@@ -162,7 +172,6 @@ display: flex;
     background-color:rgba(0, 19, 35, 0.64);
     border-radius:20px;
 }
-
 
 .code strong{
   color: WHITE;
@@ -378,13 +387,93 @@ padding-left:5em;
   /****************************************
             RESPONSIVE
   ****************************************/
-  @media screen and (max-width:700px){
-    body{
-      width:300px;
-    }
-    .app{
+  @media screen and (max-width:900px){
+    header{
       display:none;
     }
-    p{
-      font-size:0.1em;
+    .container{
+      width:auto:
     }
+    .app{
+      padding: 0;
+      margin:0;
+      width:13em;
+      height:auto;
+    }
+    .app p{
+      font-size:0.5em;
+    }
+    .app .apps{
+      position:absolute;
+      left:70%;
+      bottom:26.5%;
+      margin:0;
+      padding:0;
+      width:4em;
+      height:auto;
+    }
+    .app .plays{
+      position:absolute;
+      left:70%;
+      bottom:20.5%;
+      margin:0;
+      padding:0;
+      width:4em;
+      height:auto;
+    }
+    .lapp h2{
+      margin:2.5em 0 0 1em;
+      padding:0em;
+      font-size:0.9em;
+    }
+    img:not(.spe_responsive){
+      display:none;
+    }
+    .communication img{
+      display:none;
+    }
+  .infotel img:not(.spe_responsive){
+    display:none;
+  }
+  .spe_responsive{
+    position:absolute;
+    max-width:5em;
+    left:70%;
+  }
+  .communication{
+    background:none;
+    margin-bottom:0; /* tentative de suppression du margin-bottom visible sur l'inspecteur.*/
+  }
+  .communication h1{
+    font-size:1em;
+  }
+  .communication p{
+    font-size:0.5em;
+    outline:inherit;
+    padding-left:35%;
+  }
+  .qr h2{
+    font-size:1em;
+  }
+  .qr p{
+    font-size:0.5em;
+  }
+  .infotel{
+    height:auto;
+    width:auto;
+    margin:1em 5em 0 1em;
+
+  }
+  .infotel h2{
+    font-size:1em;
+  }
+  .infotel p{
+    font-size:0.5em;
+  }
+  footer{
+    display:none;
+  }
+  .barre{
+    display:none;
+  }
+}
