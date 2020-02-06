@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width:660px){
-  .header_div{
+  .container{
     width: 100%;
   }
   .header_nav{
