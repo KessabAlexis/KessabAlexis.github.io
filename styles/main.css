@@ -22,7 +22,6 @@ body{
   color:#FFF;
   border-bottom: 1.2px #FFF solid;
   width: 100%;
-  position: fixed;
   font-weight:500;
   z-index: 10;
 }
@@ -44,7 +43,7 @@ body{
   text-decoration: none;
   margin: 0;
   margin-left: 2px;
-  padding: 6px;
+  padding: 12px;
   font-size: 88%;
   font-weight: 300;
   border: 0.5px #FFF solid;
@@ -76,7 +75,7 @@ box-shadow: 0 2px 0 #fff;
 }
 .header_bouton:hover{
   background: #FFF;
-  box-shadow: 0 12px #fff,
+  box-shadow: 0 10px #fff,
    0 -20px #fff;
 }
 /***********************

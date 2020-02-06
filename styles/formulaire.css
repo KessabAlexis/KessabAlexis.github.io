@@ -7,6 +7,10 @@ body{
   width: 100%;
   background:url(../images/backgroundoralbv2.png);
   background-size:100%;
+    overflow-x:hidden;
+}
+html{
+  scroll-behavior: smooth;
 }
 /****************************************
             HEADER
@@ -20,9 +24,7 @@ body{
   color:#FFF;
   border-bottom: 1.2px #FFF solid;
   width: 100%;
-  position: fixed;
   font-weight:500;
-  z-index: 10;
 }
 .header_div{
   padding-top:7px;
