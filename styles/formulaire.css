@@ -20,7 +20,7 @@ body{
   color:#FFF;
   border-bottom: 1.2px #FFF solid;
   width: 100%;
-  font-weight:500;
+  font-weight:300;
   z-index: 10;
 }
 .header_div{
@@ -41,8 +41,7 @@ body{
   text-decoration: none;
   margin: 0;
   margin-left: 2px;
-  padding: 6px;
-  font-size: 88%;
+  padding: 12px;
   font-weight: 300;
   border: 0.5px #FFF solid;
   background: #FFF;
@@ -62,6 +61,7 @@ box-shadow: 0 2px 0 #fff;
   display: flex;
   margin: 0;
   padding:2px;
+  margin:6px;
   justify-content: space-between;
 
 }
@@ -70,53 +70,12 @@ box-shadow: 0 2px 0 #fff;
   color: #FFF;
   margin-left: 6px;
   margin-right: 6px;
+  padding:12px;
 }
 .header_bouton:hover{
   background: #FFF;
-  box-shadow: 0 12px #fff,
+  box-shadow: 0 10px #fff,
    0 -20px #fff;
-}
-/***********************
-MENU HAMBURGER DEROULANT
-*************************/
-
-.header_nav2{
-  display: none;
-}
-.header_nav2_sousmenu{
-  display: none;}
-.header_nav2{
-  display: none;
-}
-.header_nav2_sousmenu{
-  display: none;
-}
-.menuhamburger:hover .header_nav2_sousmenu,.header_nav2_sousmenu:hover{
-  position:absolute;
-  left:60%;
-  top:100%;
-  display: flex;
-  flex-flow: column wrap;
-}
-.header_nav2 ul{
-  list-style: none;
-}
-.header_nav2_menuhamburger{
-  width: 30px;
-  height: auto;
-  margin: 0;
-  margin-right: 15px;
-  margin-top: 7px;
-  position: relative;
-}
-.header_nav2_onglet{
-  color:#FFF;
-  background: none;
-  box-shadow: 0 1px 0px #fff ;
-}
-.header_nav2_onglet a{
-  color: #FFF;
-  text-decoration: none;
 }
 /****************************************
             /HEADER

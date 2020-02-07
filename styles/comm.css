@@ -19,23 +19,21 @@ body{
 .header{
   height: 57px;
   color:#FFF;
-  border-bottom:0.1em #FFF solid;
+  border-bottom: 1.2px #FFF solid;
   width: 100%;
-  font-weight: bold;
-  z-index: 1;
-  position: fixed;
-  font-weight:500;
+  font-weight:300;
   z-index: 10;
 }
 .header_div{
-  padding-top:0.5em;
+  padding-top:7px;
   display:flex;
   justify-content:space-between;
+  align-items: center;
   margin-left:5%;
   margin-right:25%
 }
 .header_logo{
-  width:7.5em;
+  width: 124px;
   margin: 0;
 }
 .header_bouton{
@@ -43,14 +41,12 @@ body{
   color: black;
   text-decoration: none;
   margin: 0;
-  margin-left: 1em;
-  padding: 1em;
-  font-size: 88%;
+  margin-left: 2px;
+  padding: 12px;
   font-weight: 300;
   border: 0.5px #FFF solid;
   background: #FFF;
   box-shadow: 0 -20px 0px #fff ;
-
 }
 .header_menu{
   display: flex;
@@ -60,31 +56,27 @@ body{
   padding: 6px;
 }
 .header_menu_element:hover {
-  border-bottom: 1.5px #FFF solid;
 box-shadow: 0 2px 0 #fff;
 }
 .header_droite{
   display: flex;
   margin: 0;
-  padding: 2px;
   padding:2px;
+  margin:6px;
   justify-content: space-between;
 
 }
 .header_menu_lien{
   text-decoration: none;
   color: #FFF;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding:12px;
 }
 .header_bouton:hover{
   background: #FFF;
-  box-shadow: 0 12px #fff,
+  box-shadow: 0 10px #fff,
    0 -20px #fff;
-  color:#0257B8;
-  transition: linear 0.68s;
-  height: 35px;
-  box-shadow: 0 12px #fff,
-   0 -20px #fff;
-
 }
 /***********************
 MENU HAMBURGER DEROULANT
