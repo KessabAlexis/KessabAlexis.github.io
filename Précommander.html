@@ -38,29 +38,29 @@
    <main>
     <div class="slider">
       <div class="slides1">
-        <img src="images/brossedentv7.png" class="slider_image1">
-        <img src="images/slider1flechedroite.png" class="slider_flechedroite">
-        <img src="images/slider1flechegauche.png" class="slider_flechegauche">
+        <img src="images/brossedentv7.png" class="slider_image1" alt="brosse à dent">
+        <img src="images/slider1flechedroite.png" class="slider_flechedroite" alt="slider droite">
+        <img src="images/slider1flechegauche.png" class="slider_flechegauche" alt="slider gauche">
       </div>
       <div class="slides3">
         <div class="contenudroite_reseaux">
             <p>Retrouvez plus d'informations sur nos réseaux...</p>
             <div>
             <div class="contenu_droite_reseaux_logos">
-              <a target="_blank" href="https://www.facebook.com/oralbfrance/"><img src="images/logof.png"></a>
-             <a target="_blank" href="https://www.instagram.com/oralb/"><img src="images/logoi.png"></a>
-             <a target="_blank" href="https://twitter.com/oralb_FR"><img src="images/logot.png"></a>
-             <a target="_blank" href="https://www.youtube.com/channel/UCAIpPUNdgyLmaOl3LMoELGw"><img src="images/logoy.png"></a>
+              <a target="_blank" href="https://www.facebook.com/oralbfrance/"><img src="images/logof.png" alt="logo facebook"></a>
+             <a target="_blank" href="https://www.instagram.com/oralb/"><img src="images/logoi.png" alt="logo instagram"></a>
+             <a target="_blank" href="https://twitter.com/oralb_FR"><img src="images/logot.png" alt="logo twitter"></a>
+             <a target="_blank" href="https://www.youtube.com/channel/UCAIpPUNdgyLmaOl3LMoELGw"><img src="images/logoy.png" alt="logo youtube"></a>
             </div>
             <div class="contenu_droite_reseaux_site">
-              <img src="images/logo.png">
+              <img src="images/logo.png" alt="logo">
             </div>
           </div>
           <div class="reseaux_droite">
             <h3>Et en vrai !</h3><p>Quelques informations sur le #WorldIO et nos applications...</p>
             <a href="comm.html" class="reseaux_droite_lien">en savoir plus...</a>
             <div class="reseaux_image_event">
-              <img src="images/PARISv2.png">
+              <img src="images/PARISv2.png" alt="Paris v2">
               <div class="image_event_textsur">
                 Paris, France
               </div>
@@ -71,8 +71,8 @@
     </div>
     <div class="contenu_sur">
       <div class="contenu_sur_logo" >
-        <img src="images/logoblanc.png" class="contenu_sur_image1">
-        <img src="images/io.png" class="contenu_sur_image2">
+        <img src="images/logoblanc.png" class="contenu_sur_image1" alt="logo blanc">
+        <img src="images/io.png" class="contenu_sur_image2" alt="logo-IO">
       </div>
       <div class="contenu_sur_texte">
         <p>Inscrivez-vous pour bénéficier de mises à jour exclusives,</p>
@@ -83,24 +83,25 @@
     <div class="contenu_droite">
       <p class="contenu_droite_texte">Disponible le 06/06/2020</p>
       <h3 class="contenu_droite_titre">PRÉCOMMANDER</h3>
-      <form action:"#" method="post" class="contenu_droite_formulaire">
-        <caption>Informations</caption>
+      <form action:"#" method="post" class="contenu_droite_formulaire"> <!--Action à définir!-->
+        <span>Informations</span>
         <div class="formulaire_contenu1">
           <div>
             <label for="mail">E-mail</label>
             <input type="email" name="email" value="email@adress.com" id="mail" >
-            <label for="Name" class="formulaire_contenu1_ecart1">Nom</label>
+            <label id="Name" class="formulaire_contenu1_ecart1">Nom</label>
             <input type="Name" name="nom" value="NOM">
           </div>
           <div>
-            <label for="place">Région</label>
+            <label id="place">Région</label>
             <select>
               <option value:"Europe" id="place">Europe</option>
               <option value:"Asia" id="place">Asie</option>
               <option value:"US" id="place">États-Unis</option>
               <option value:"Other" id="place">autre</option>
+              <!--Problèmes avec les values et les id!-->
             </select>
-            <label for="mdp">Mot de passe</label>
+            <label id="mdp">Mot de passe</label>
             <input type="password" name="motdepasse" value="******">
           </div>
           <div>
@@ -109,15 +110,17 @@
         <div class="formulaire_bas">
           <div class="formulaire_conditions">
             <input type="checkbox" name="conditions" value="conditions">
-  <label>En cochant, j'accepte de recevoir des courriels d'Oral B et d'autres marques et programmes de confiance de P&G. Cliquez pour lire les <a href="https://www.pg.com/fr_FR/terms_conditions/index.shtml"><span>conditions générales</span> </a> et la <a href="https://www.pg.com/privacy/french/privacy_statement.shtml"><span>politique de confidentialité</span></a> de P&G.</label>
+              <label>En cochant, j'accepte de recevoir des courriels d'Oral B et d'autres marques et programmes de confiance de P&G. Cliquez pour lire les <a href="https://www.pg.com/fr_FR/terms_conditions/index.shtml"><span>conditions générales</span> </a> et la <a href="https://www.pg.com/privacy/french/privacy_statement.shtml"><span>politique de confidentialité</span></a> de P&G.</label>
+            </div>
           </div>
+          <div>
              <input type="submit" value="Envoyer" class="form_endbutton"></input>
         </div>
       </form>
       <div class="contenu_droite_details">
         <p>Un QR Code ? Vérifiez vos lots !</p>
        <form class="spacecode">
-         <label for="Name" class="formulaire_contenu1_ecart1">Entrez le QR code</label>
+         <label id="Name" class="formulaire_contenu1_ecart1">Entrez le QR code</label>
          <input type="Name" name="code" value="code">
        </form>
         <div class="contenu_droite_details_liste">
@@ -126,8 +129,8 @@
     </div>
    </main>
    <footer>
-  <table summary="footer">
-    <div class="tableau">
+  <table>
+    <!--<summary>Footer</summary>!-->
      <thead>
        <tr>
          <th>Mentions légales</th>
@@ -141,15 +144,15 @@
        <td>Conditions d’utilisations</td>
        <td>Nous Contacter</td>
        <td>Tout sur Oral-B</td>
-       <td><a target="_blank" href="https://www.facebook.com/oralbfrance/"><img src="images/logof.png"></a></td>
-       <td> <a target="_blank" href="https://twitter.com/oralb_FR"><img src="images/logot.png" class="alignImg"></a></td>
+       <td><a target="_blank" href="https://www.facebook.com/oralbfrance/"><img src="images/logof.png" alt="logo facebook"></a></td>
+       <td> <a target="_blank" href="https://twitter.com/oralb_FR"><img src="images/logot.png" class="alignImg" alt="loto twitter"></a></td>
       </tr>
       <tr>
       <td>Notification de confidentialité</td>
       <td>Services Après Vente</td>
       <td>Actus & Promos</td>
-      <td><a target="_blank" href="https://www.instagram.com/oralb/"><img src="images/logoi.png"></a></td>
-      <td><a target="_blank" href="https://www.youtube.com/channel/UCAIpPUNdgyLmaOl3LMoELGw"><img src="images/logoy.png" class="alignImg"></a></td>
+      <td><a target="_blank" href="https://www.instagram.com/oralb/"><img src="images/logoi.png" alt="logo instagram"></a></td>
+      <td><a target="_blank" href="https://www.youtube.com/channel/UCAIpPUNdgyLmaOl3LMoELGw"><img src="images/logoy.png" class="alignImg" alt="logo youtube"></a></td>
       </tr>
       <tr>
        <td>Plan du site</td>
