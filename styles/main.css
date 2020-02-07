@@ -22,7 +22,7 @@ body{
   color:#FFF;
   border-bottom: 1.2px #FFF solid;
   width: 100%;
-  font-weight:500;
+  font-weight:300;
   z-index: 10;
 }
 .header_div{
@@ -44,7 +44,6 @@ body{
   margin: 0;
   margin-left: 2px;
   padding: 12px;
-  font-size: 88%;
   font-weight: 300;
   border: 0.5px #FFF solid;
   background: #FFF;
@@ -64,6 +63,7 @@ box-shadow: 0 2px 0 #fff;
   display: flex;
   margin: 0;
   padding:2px;
+  margin:6px;
   justify-content: space-between;
 
 }
@@ -72,6 +72,7 @@ box-shadow: 0 2px 0 #fff;
   color: #FFF;
   margin-left: 6px;
   margin-right: 6px;
+  padding:12px;
 }
 .header_bouton:hover{
   background: #FFF;
